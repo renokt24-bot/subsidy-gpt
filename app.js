@@ -53,7 +53,7 @@
     };
   }
 
-  // 判定の実行
+  // 判定の実行（収録ルールベースの助成金）
   function evaluate(company) {
     const results = [];
     SUBSIDIES.forEach((s) => {
@@ -65,18 +65,84 @@
     return results;
   }
 
+  // jGrants（公式・募集中の補助金）から会社条件に合うものを抽出
+  function filterJgrants(company) {
+    const data = window.JGRANTS_DATA;
+    if (!data || !Array.isArray(data.subsidies)) return [];
+    const now = Date.now();
+
+    const matched = data.subsidies.filter((s) => {
+      // 地域: 全国 もしくは 所在都道府県のみ
+      if (s.prefecture && s.prefecture !== "全国" && s.prefecture !== company.prefecture) {
+        return false;
+      }
+      // 従業員数の上限・下限
+      if (s.employeeMax != null && company.employees > s.employeeMax) return false;
+      if (s.employeeMin != null && company.employees < s.employeeMin) return false;
+      // 募集期間（締切超過を除外）
+      if (s.acceptanceEnd && Date.parse(s.acceptanceEnd) < now) return false;
+      // 目的: 選択があり、かつ制度側に目的タグがある場合は一致を要求
+      if (company.purposes.length && s.purposes && s.purposes.length) {
+        if (!s.purposes.some((p) => company.purposes.includes(p))) return false;
+      }
+      return true;
+    });
+
+    // 関連度でランキング：
+    //   1. 選択した目的との一致数が多い
+    //   2. 地域密着（自治体）の制度を「全国」より優先
+    //   3. 締切が近い順
+    const purposeHits = (s) =>
+      company.purposes.length && s.purposes
+        ? s.purposes.filter((p) => company.purposes.includes(p)).length
+        : 0;
+    const deadline = (s) => (s.acceptanceEnd ? Date.parse(s.acceptanceEnd) : Infinity);
+
+    return matched.sort((a, b) => {
+      const ph = purposeHits(b) - purposeHits(a);
+      if (ph !== 0) return ph;
+      const localA = a.prefecture && a.prefecture !== "全国" ? 0 : 1;
+      const localB = b.prefecture && b.prefecture !== "全国" ? 0 : 1;
+      if (localA !== localB) return localA - localB;
+      return deadline(a) - deadline(b);
+    });
+  }
+
+  function formatAmount(n) {
+    if (!n || n <= 0) return "公募要領を確認";
+    if (n >= 10000) return "上限 約" + Math.round(n / 10000).toLocaleString() + "万円";
+    return "上限 " + n.toLocaleString() + "円";
+  }
+
+  function formatDate(iso) {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    if (isNaN(d)) return "—";
+    return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, "0")}/${String(
+      d.getDate()
+    ).padStart(2, "0")}`;
+  }
+
   // 結果の描画
-  function render(company, results) {
+  function render(company, results, jgrants) {
     const out = document.getElementById("results");
     out.innerHTML = "";
 
+    const total = results.length + jgrants.length;
     const summary = document.createElement("div");
     summary.className = "result-summary";
     summary.innerHTML =
-      results.length > 0
-        ? `<strong>${results.length}件</strong>の助成金・補助金が候補として見つかりました。`
+      total > 0
+        ? `<strong>${total}件</strong>の助成金・補助金が候補として見つかりました（要件マッチ ${results.length}件／募集中の公式補助金 ${jgrants.length}件）。`
         : "条件に一致する制度が見つかりませんでした。「やりたいこと」を追加で選択してみてください。";
     out.appendChild(summary);
+
+    if (results.length) {
+      const h = document.createElement("h2");
+      h.className = "section-title";
+      h.textContent = "要件にマッチした助成金（雇用・人材系ほか）";
+      out.appendChild(h);
+    }
 
     results.forEach((res) => {
       const s = res.subsidy;
@@ -139,14 +205,89 @@
       out.appendChild(card);
     });
 
+    renderJgrants(out, jgrants);
+
     out.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  // jGrants（公式・募集中）の補助金カード群を描画
+  function renderJgrants(out, jgrants) {
+    if (!jgrants.length) return;
+
+    const h = document.createElement("h2");
+    h.className = "section-title";
+    h.textContent = "募集中の補助金（国・地方自治体／公式データ）";
+    out.appendChild(h);
+
+    const meta = window.JGRANTS_DATA;
+    if (meta && meta.updatedAt) {
+      const note = document.createElement("div");
+      note.className = "source-note";
+      note.textContent = `出典: ${meta.source}（データ更新: ${formatDate(meta.updatedAt)}）`;
+      out.appendChild(note);
+    }
+
+    const MAX_SHOW = 40;
+    jgrants.slice(0, MAX_SHOW).forEach((s) => {
+      const card = document.createElement("article");
+      card.className = "card jgrants";
+
+      const head = document.createElement("div");
+      head.className = "card-head";
+      const pref = s.prefecture || "全国";
+      head.innerHTML = `
+        <div class="badges">
+          <span class="tag area">${pref}</span>
+          ${s.employeeLimitText ? `<span class="tag emp">${s.employeeLimitText}</span>` : ""}
+        </div>
+        <h3>${escapeHtml(s.title)}</h3>
+        ${s.institution ? `<div class="org">${escapeHtml(s.institution)}</div>` : ""}
+      `;
+      card.appendChild(head);
+
+      const body = document.createElement("div");
+      body.className = "card-body";
+      body.innerHTML = `
+        <p class="amount"><span>補助上限</span>${formatAmount(s.maxAmount)}</p>
+        <p class="period"><span>募集期間</span>${formatDate(s.acceptanceStart)} 〜 ${formatDate(
+        s.acceptanceEnd
+      )}</p>
+      `;
+
+      const link = document.createElement("a");
+      link.href = s.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.className = "detail-link";
+      link.textContent = "jGrantsで詳細・申請する →";
+      body.appendChild(link);
+
+      card.appendChild(body);
+      out.appendChild(card);
+    });
+
+    if (jgrants.length > MAX_SHOW) {
+      const more = document.createElement("div");
+      more.className = "source-note";
+      more.textContent = `ほか ${jgrants.length - MAX_SHOW}件（締切が近い順に${MAX_SHOW}件を表示しています）`;
+      out.appendChild(more);
+    }
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function onSubmit(e) {
     e.preventDefault();
     const company = readCompany();
     const results = evaluate(company);
-    render(company, results);
+    const jgrants = filterJgrants(company);
+    render(company, results, jgrants);
   }
 
   document.addEventListener("DOMContentLoaded", function () {
