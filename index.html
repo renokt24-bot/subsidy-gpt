@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>助成金マッチング | 会社情報から使える助成金がすぐわかる</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>助成金マッチング</h1>
+      <p>会社情報を入力すると、使える可能性のある助成金・補助金がすぐにわかります。</p>
+    </header>
+
+    <main>
+      <form id="company-form" class="panel">
+        <h2>会社情報を入力</h2>
+
+        <div class="grid">
+          <div class="field">
+            <label for="prefecture">所在地（都道府県）</label>
+            <select id="prefecture" required></select>
+          </div>
+
+          <div class="field">
+            <label for="industry">業種</label>
+            <select id="industry" required></select>
+          </div>
+
+          <div class="field">
+            <label for="employees">従業員数（人）</label>
+            <input id="employees" type="number" min="0" step="1" placeholder="例: 15" required />
+          </div>
+
+          <div class="field">
+            <label for="capital">資本金（万円）</label>
+            <input id="capital" type="number" min="0" step="1" placeholder="例: 1000" required />
+          </div>
+
+          <div class="field">
+            <label for="years">創業からの年数</label>
+            <input id="years" type="number" min="0" step="1" placeholder="例: 3" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label>やりたいこと（複数選択可）</label>
+          <div id="purposes" class="chips"></div>
+        </div>
+
+        <button type="submit" class="cta">使える助成金を調べる</button>
+      </form>
+
+      <section id="results" class="results"></section>
+
+      <footer class="disclaimer">
+        <p>
+          ※本ツールの判定は申請の目安です。各制度の要件・支給額・募集状況は簡略化しています。
+          実際の支給可否は、必ず厚生労働省・中小企業庁・各自治体・お近くの労働局や商工会議所等の
+          公式な最新情報でご確認ください。
+        </p>
+      </footer>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
