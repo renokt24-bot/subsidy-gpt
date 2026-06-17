@@ -79,6 +79,12 @@ function isSmallBusiness(c) {
   return c.employees <= 20;
 }
 
+// 目的IDからラベルを引く
+function purposeLabel(id) {
+  const p = PURPOSES.find((x) => x.id === id);
+  return p ? p.label : id;
+}
+
 const SUBSIDIES = [
   {
     id: "career-up",
@@ -342,3 +348,81 @@ const SUBSIDIES = [
     },
   },
 ];
+
+/*
+ * 各制度の「目的タグ」と「採択率」のメタ情報を付与。
+ *   - purposes:      AI診断の関連度スコアに利用
+ *   - adoptionRate:  代表的な採択率（％。年度・公募回で変動する参考値）
+ *   - nonCompetitive:true の制度は競争的採択ではなく「要件を満たせば支給」型（助成金）
+ */
+const SUBSIDY_META = {
+  "career-up":      { purposes: ["regularize"],        nonCompetitive: true },
+  "jinzai-kaihatsu":{ purposes: ["training"],          nonCompetitive: true },
+  "trial":          { purposes: ["hire"],              nonCompetitive: true },
+  "ryoritsu":       { purposes: ["worklife"],          nonCompetitive: true },
+  "hatarakikata":   { purposes: ["worklife", "equipment"], nonCompetitive: true },
+  "gyomu-kaizen":   { purposes: ["wageup", "equipment"],   nonCompetitive: true },
+  "monozukuri":     { purposes: ["equipment"],         adoptionRate: 50 },
+  "it-dounyu":      { purposes: ["it"],                adoptionRate: 70 },
+  "jizokuka":       { purposes: ["sales", "it"],       adoptionRate: 65 },
+  "saikouchiku":    { purposes: ["restructure"],       adoptionRate: 45 },
+  "sougyou":        { purposes: ["startup"] },
+  "koureisha":      { purposes: ["hire", "worklife"],  nonCompetitive: true },
+};
+SUBSIDIES.forEach((s) => {
+  const m = SUBSIDY_META[s.id];
+  if (m) Object.assign(s, m);
+});
+
+/* =========================================================
+ * 管理画面で追加する独自の補助金データ（localStorageに保存）
+ * ========================================================= */
+const CUSTOM_STORE_KEY = "subsidy-admin-custom-v1";
+
+function loadCustomSubsidies() {
+  try {
+    const raw = localStorage.getItem(CUSTOM_STORE_KEY);
+    const arr = raw ? JSON.parse(raw) : [];
+    return Array.isArray(arr) ? arr : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveCustomSubsidies(arr) {
+  localStorage.setItem(CUSTOM_STORE_KEY, JSON.stringify(arr || []));
+}
+
+// 管理画面で作られた独自エントリ用の汎用マッチャ（条件ベース）
+function matchCustomEntry(entry, c) {
+  if (entry.prefectures && entry.prefectures.length) {
+    if (!entry.prefectures.includes(c.prefecture)) return { eligible: false };
+  }
+  if (entry.employeeMax != null && c.employees > entry.employeeMax) return { eligible: false };
+  if (entry.employeeMin != null && c.employees < entry.employeeMin) return { eligible: false };
+  if (entry.purposes && entry.purposes.length) {
+    const hit = entry.purposes.filter((p) => c.purposes.includes(p));
+    if (!hit.length) return { eligible: false };
+  }
+  const reasons = [];
+  if (entry.purposes && entry.purposes.length) {
+    const labels = entry.purposes
+      .filter((p) => c.purposes.includes(p))
+      .map(purposeLabel);
+    if (labels.length) reasons.push("選択した目的に合致：" + labels.join("・"));
+  }
+  if (entry.prefectures && entry.prefectures.length) {
+    reasons.push(c.prefecture + " が対象地域に含まれる");
+  }
+  const cautions = ["公式の募集要領で最新の要件・締切・金額をご確認ください"];
+  return { eligible: true, reasons, cautions };
+}
+
+// 独自エントリを SUBSIDIES と同じ形（match関数つき）に変換
+function customSubsidiesAsRules() {
+  return loadCustomSubsidies().map((e) => ({
+    ...e,
+    isCustom: true,
+    match: (c) => matchCustomEntry(e, c),
+  }));
+}
