@@ -1,0 +1,37 @@
+name: 補助金データの自動更新 (jGrants)
+
+# jGrants公開APIから最新の募集中補助金を取得し、変更があればコミットします。
+on:
+  schedule:
+    - cron: "0 21 * * *" # 毎日 06:00 JST (21:00 UTC) に更新
+  workflow_dispatch: {} # 手動実行も可能
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch latest subsidies from jGrants
+        run: node scripts/fetch-jgrants.js
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add data/subsidies.json data/subsidies.js
+            git commit -m "chore: jGrants補助金データを自動更新 ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "変更なし。コミットをスキップします。"
+          fi

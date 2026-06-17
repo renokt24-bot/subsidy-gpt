@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>助成金マッチング | 会社情報から使える助成金がすぐわかる</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <span class="brand">助成金マッチング</span>
+        <span class="nav-links">
+          <a href="#" class="nav-link current" data-target="form">診断</a>
+          <a href="#" class="nav-link" data-target="admin">管理画面</a>
+        </span>
+      </nav>
+      <h1>使える助成金が、すぐわかる</h1>
+      <p>会社情報を入力すると、AIが使える可能性のある助成金・補助金を優先度づけして表示します。</p>
+    </header>
+
+    <main>
+      <!-- ============ 画面1: 入力フォーム ============ -->
+      <section id="screen-form" class="screen is-active">
+        <form id="company-form" class="panel" novalidate>
+          <h2>会社情報を入力</h2>
+
+          <!-- 1. 法人番号検索 -->
+          <div class="field corp-search">
+            <label for="company-name">会社名（法人番号検索）</label>
+            <div class="corp-row">
+              <input id="company-name" type="text" placeholder="例: サンプル商事" autocomplete="organization" />
+              <button type="button" id="corp-search" class="corp-btn">検索</button>
+            </div>
+            <div id="corp-results" class="corp-results"></div>
+          </div>
+
+          <div class="grid">
+            <div class="field">
+              <label for="prefecture">所在地（都道府県）</label>
+              <select id="prefecture" required></select>
+            </div>
+            <div class="field">
+              <label for="industry">業種</label>
+              <select id="industry" required></select>
+            </div>
+            <div class="field">
+              <label for="employees">従業員数（人）</label>
+              <input id="employees" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 15" required />
+            </div>
+            <div class="field">
+              <label for="capital">資本金（万円）</label>
+              <input id="capital" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 1000" required />
+            </div>
+            <div class="field">
+              <label for="years">創業からの年数</label>
+              <input id="years" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 3" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label>やりたいこと（複数選択可）</label>
+            <div id="purposes" class="chips"></div>
+          </div>
+
+          <p id="form-error" class="form-error" hidden></p>
+          <button type="submit" class="cta">AIで使える助成金を診断する</button>
+        </form>
+      </section>
+
+      <!-- ============ 画面2: 補助金一覧（AI診断結果） ============ -->
+      <section id="screen-results" class="screen" aria-hidden="true">
+        <div class="results-bar">
+          <button type="button" id="back-button" class="back">← 条件を変更</button>
+          <div id="result-count" class="result-count"></div>
+          <label class="sort">
+            並び替え
+            <select id="sort-select">
+              <option value="ai">AI優先度順</option>
+              <option value="deadline">申請期限が近い順</option>
+              <option value="adoption">採択率が高い順</option>
+              <option value="amount">補助額が大きい順</option>
+            </select>
+          </label>
+        </div>
+        <div id="results" class="results"></div>
+      </section>
+
+      <!-- ============ 画面3: 申請代行 問い合わせフォーム ============ -->
+      <section id="screen-agent" class="screen" aria-hidden="true">
+        <form id="agent-form" class="panel" novalidate>
+          <button type="button" id="ag-back" class="back">← 一覧へ戻る</button>
+          <h2>申請代行サービスへのお問い合わせ</h2>
+          <p class="lead">補助金・助成金の申請書類の作成から提出までを専門スタッフがサポートします。下記をご記入ください。</p>
+
+          <div class="grid">
+            <div class="field">
+              <label for="ag-company">会社名 <span class="req">必須</span></label>
+              <input id="ag-company" type="text" />
+            </div>
+            <div class="field">
+              <label for="ag-name">ご担当者名 <span class="req">必須</span></label>
+              <input id="ag-name" type="text" />
+            </div>
+            <div class="field">
+              <label for="ag-email">メールアドレス <span class="req">必須</span></label>
+              <input id="ag-email" type="email" />
+            </div>
+            <div class="field">
+              <label for="ag-tel">電話番号</label>
+              <input id="ag-tel" type="tel" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="ag-subsidy">相談したい補助金・助成金</label>
+            <input id="ag-subsidy" type="text" placeholder="未定の場合は空欄でもOK" />
+          </div>
+          <div class="field">
+            <label for="ag-message">相談内容 <span class="req">必須</span></label>
+            <textarea id="ag-message" rows="5" placeholder="例: 設備投資を予定しており、どの補助金が使えるか相談したい。"></textarea>
+          </div>
+
+          <p id="ag-error" class="form-error" hidden></p>
+          <p id="ag-success" class="form-success" hidden></p>
+          <button type="submit" class="cta">この内容で問い合わせる</button>
+        </form>
+      </section>
+
+      <!-- ============ 画面4: 管理画面 ============ -->
+      <section id="screen-admin" class="screen" aria-hidden="true">
+        <div class="panel">
+          <h2>管理画面 — 補助金データの追加・編集</h2>
+          <p class="lead">
+            独自の補助金・助成金データを登録できます。登録内容は診断結果にも反映されます。
+            （データはこのブラウザに保存されます。共有・バックアップにはエクスポートをご利用ください）
+          </p>
+          <div id="admin-list"></div>
+
+          <div class="admin-toolbar">
+            <button type="button" id="ad-export" class="mini">エクスポート（JSON）</button>
+            <label class="mini import-label">インポート
+              <input type="file" id="ad-import" accept="application/json" hidden />
+            </label>
+            <button type="button" id="ad-clear" class="mini danger">全削除</button>
+          </div>
+
+          <h3 class="admin-form-title">補助金を追加 / 編集</h3>
+          <form id="admin-form" class="admin-form" novalidate>
+            <div class="grid">
+              <div class="field">
+                <label for="ad-name">制度名 <span class="req">必須</span></label>
+                <input id="ad-name" type="text" />
+              </div>
+              <div class="field">
+                <label for="ad-org">所管</label>
+                <input id="ad-org" type="text" placeholder="例: ○○県" />
+              </div>
+              <div class="field">
+                <label for="ad-category">カテゴリ</label>
+                <input id="ad-category" type="text" placeholder="例: 設備投資・生産性向上" />
+              </div>
+              <div class="field">
+                <label for="ad-amount">支給/補助額（テキスト）</label>
+                <input id="ad-amount" type="text" placeholder="例: 上限200万円（補助率2/3）" />
+              </div>
+              <div class="field">
+                <label for="ad-rate">採択率（％・任意）</label>
+                <input id="ad-rate" type="number" min="0" max="100" step="1" placeholder="例: 60" />
+              </div>
+              <div class="field">
+                <label for="ad-url">公式URL</label>
+                <input id="ad-url" type="url" placeholder="https://..." />
+              </div>
+              <div class="field">
+                <label for="ad-empmin">対象 従業員数 下限</label>
+                <input id="ad-empmin" type="number" min="0" step="1" placeholder="（空欄=制限なし）" />
+              </div>
+              <div class="field">
+                <label for="ad-empmax">対象 従業員数 上限</label>
+                <input id="ad-empmax" type="number" min="0" step="1" placeholder="（空欄=制限なし）" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="ad-summary">概要</label>
+              <textarea id="ad-summary" rows="2"></textarea>
+            </div>
+            <div class="field">
+              <label>対象の目的（複数選択可）</label>
+              <div id="ad-purposes" class="chips"></div>
+            </div>
+            <div class="field">
+              <label for="ad-prefs">対象都道府県（複数選択可・未選択=全国）</label>
+              <select id="ad-prefs" multiple size="6"></select>
+            </div>
+
+            <p id="ad-error" class="form-error" hidden></p>
+            <div class="admin-form-actions">
+              <button type="submit" id="ad-save" class="cta">この内容で追加</button>
+              <button type="button" id="ad-reset" class="back">クリア</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="disclaimer">
+        <p>
+          ※本ツールの判定・採択率・優先度は申請の目安です。各制度の要件・支給額・募集状況・採択率は
+          年度や公募回で変動し、簡略化しています。実際の支給可否は、必ず厚生労働省・中小企業庁・
+          各自治体・お近くの労働局や商工会議所等の公式な最新情報でご確認ください。
+        </p>
+      </footer>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="corporate.js"></script>
+    <script src="data.js"></script>
+    <script src="data/subsidies.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
