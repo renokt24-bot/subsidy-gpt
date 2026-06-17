@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI事業計画書アシスタント | 小規模事業者持続化補助金</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <span class="brand">助成金マッチング</span>
+        <span class="nav-links">
+          <a href="index.html" class="nav-link">診断</a>
+          <a href="plan.html" class="nav-link current">AI計画書</a>
+        </span>
+      </nav>
+      <h1>AI事業計画書アシスタント</h1>
+      <p>数問のヒアリングから、採択されやすい事業計画書のドラフトをAIが作成し、採択率を診断します。<br />（対象制度：小規模事業者持続化補助金）</p>
+    </header>
+
+    <main>
+      <div id="offline-note" class="form-error" hidden>
+        この機能はAIバックエンド（ローカルサーバー）が必要です。READMEの手順で
+        <code>server</code> を起動してからアクセスしてください。
+      </div>
+
+      <!-- ヒアリング -->
+      <section class="panel">
+        <h2>① ヒアリング</h2>
+        <p class="lead">分かる範囲でOKです。空欄があってもAIが仮説で補い「※要検証」を付けます。</p>
+        <form id="interview-form"></form>
+        <p id="gen-error" class="form-error" hidden></p>
+        <button type="button" id="generate-btn" class="cta">AIで事業計画書ドラフトを作成</button>
+      </section>
+
+      <!-- 生成された計画書 -->
+      <section id="plan-section" class="panel" hidden>
+        <div class="results-bar">
+          <h2 style="margin:0;">② 事業計画書ドラフト</h2>
+          <span id="gen-status" class="result-count"></span>
+        </div>
+        <div id="plan-output" class="plan-output"></div>
+        <button type="button" id="critique-btn" class="cta" disabled>この計画書の採択率を診断する</button>
+      </section>
+
+      <!-- 採択率診断 -->
+      <section id="critique-section" class="panel" hidden>
+        <h2>③ AI採択率診断</h2>
+        <p id="crit-error" class="form-error" hidden></p>
+        <div id="critique-output"></div>
+      </section>
+
+      <footer class="disclaimer">
+        <p>
+          ※生成内容・採択率は申請の目安です。AIは入力情報をもとに下書きを作成しますが、
+          数値や固有名詞は必ずご自身で検証してください。最終的な要件・様式・採択は、
+          必ず商工会議所・公募要領等の公式情報でご確認ください。
+        </p>
+      </footer>
+    </main>
+
+    <script src="plan.js"></script>
+  </body>
+</html>

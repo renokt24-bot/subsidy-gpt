@@ -50,6 +50,36 @@ python3 -m http.server 8000  # → http://localhost:8000
 3. **申請代行フォーム画面** — 専門スタッフへの相談を送信
 4. **管理画面** — 独自の補助金データを追加・編集（上部ナビ「管理画面」から）
 
+## 🤖 AI事業計画書アシスタント（革新機能・プロトタイプ）
+
+「補助金を探す」だけでなく、**採択率を左右する事業計画書づくりまでAIが伴走**する機能です。
+対象は「小規模事業者持続化補助金」。数問のヒアリング → **事業計画書ドラフトをAIが生成** →
+**審査基準に照らした採点・改善提案（採択率診断）** を行います。
+
+- 画面: [`plan.html`](./plan.html)（上部ナビ「AI計画書」）
+- モデル: **Claude Opus 4.8**（`claude-opus-4-8`）。ドラフトはストリーミング生成、採点は構造化出力。
+- バックエンド必須: APIキーはブラウザに置けないため、小さなNodeサーバー（[`server/`](./server)）経由で呼び出します。
+
+### 動かし方（ローカル）
+
+```bash
+cd server
+npm install
+export ANTHROPIC_API_KEY="sk-ant-..."   # 自分のAnthropic APIキー
+npm start                                # → http://localhost:5179/plan.html
+```
+
+`http://localhost:5179/` を開くと、静的サイト本体（診断・管理画面）も同じサーバーから配信されます。
+APIキー未設定でも画面は表示されますが、生成・診断はキー設定後に動作します。
+
+> この機能はサーバーが必要なため **GitHub Pages（静的）では動きません**。Pages上の `plan.html` は
+> 「ローカルサーバーが必要」と表示します。デプロイする場合はNodeが動くホスト（Render/Fly.io等）に
+> `server/` を置いてください。
+
+> ⚠️ プロトタイプの注意：制度知識（審査基準）は公募要領の**要約版**を `server/subsidy-spec.js` に
+> 収録しています。実運用では公募要領PDFを Files API + Citations で読み込み、根拠付けを厳密化する想定です。
+> 生成された数値・固有名詞は必ずご自身で検証してください。
+
 ## ドキュメント
 
 | 文書 | 内容 |
@@ -142,6 +172,8 @@ app.js                  フォーム・法人検索・AI診断・並び替え・
 scripts/fetch-jgrants.js jGrants公開APIから補助金を取得するスクリプト
 data/subsidies.json     取得した補助金データ（JSON）
 data/subsidies.js       同データのブラウザ読込用（自動生成・編集不可）
+plan.html / plan.js     AI事業計画書アシスタント（フロント）
+server/                 AIバックエンド（Claude Opus 4.8: 計画書生成＋採択率診断）
 docs/設計書.md           システム設計書
 docs/画面設計.md          画面設計書
 .github/workflows/update-subsidies.yml  データ自動更新ワークフロー

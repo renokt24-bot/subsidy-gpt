@@ -392,7 +392,27 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--b
 .builtin-ref ul { margin: 8px 0 0; padding-left: 20px; }
 select[multiple] { padding: 6px; }
 
-/* ===== 7. スマホ最適化 ===== */
+/* ===== AI事業計画書アシスタント ===== */
+.plan-output {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  max-height: 540px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.plan-output:empty::before {
+  content: "ここに事業計画書のドラフトが表示されます。";
+  color: var(--muted);
+}
+.plan-output h2, .plan-output h3 { margin: 16px 0 6px; font-size: 16px; color: var(--brand-dark); }
+.plan-output ul { margin: 4px 0 10px; padding-left: 20px; }
+.plan-output p { margin: 6px 0; }
+.panel + .panel { margin-top: 18px; }
+.panel textarea { width: 100%; }
 @media (max-width: 640px) {
   .hero { padding: 18px 16px 34px; }
   .hero h1 { font-size: 23px; }
