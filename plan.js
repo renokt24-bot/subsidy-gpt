@@ -121,6 +121,10 @@
           if (!dataLine) continue;
           const payload = JSON.parse(dataLine.slice(6));
           if (isError) throw new Error(payload.message || "生成に失敗しました");
+          if (payload.demo) {
+            status.innerHTML = '<span class="prio-badge low">サンプル（デモ）</span>';
+            out.dataset.demo = "1";
+          }
           if (payload.text) {
             lastPlanText += payload.text;
             out.innerHTML = renderMarkdown(lastPlanText);
@@ -128,7 +132,9 @@
           }
         }
       }
-      status.textContent = "完成";
+      status.innerHTML = out.dataset.demo
+        ? '<span class="prio-badge low">サンプル（デモ）</span> 完成'
+        : "完成";
       document.getElementById("critique-btn").disabled = false;
     } catch (e) {
       genErr.textContent = e.message;
@@ -178,6 +184,11 @@
   function renderCritique(d) {
     const out = document.getElementById("critique-output");
     out.innerHTML = "";
+
+    if (d.demo) {
+      const banner = el("div", "source-note", "※ これはサンプル（デモ）出力です。ANTHROPIC_API_KEY を設定すると本物のAI診断になります。");
+      out.appendChild(banner);
+    }
 
     const head = el("div", "ai-intro");
     head.innerHTML =

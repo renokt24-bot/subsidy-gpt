@@ -10,9 +10,14 @@ const path = require("path");
 const express = require("express");
 const Anthropic = require("@anthropic-ai/sdk");
 const { OVERVIEW, RUBRIC } = require("./subsidy-spec");
+const { SAMPLE_PLAN, SAMPLE_CRITIQUE } = require("./demo");
 
 const MODEL = "claude-opus-4-8";
-const client = new Anthropic(); // ANTHROPIC_API_KEY を環境変数から読み込み
+// APIキーが無い場合はデモ（サンプル）モードで全フローを動かす
+const DEMO = !process.env.ANTHROPIC_API_KEY;
+const client = DEMO ? null : new Anthropic(); // ANTHROPIC_API_KEY を環境変数から読み込み
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const app = express();
 app.use(express.json({ limit: "1mb" }));
@@ -70,6 +75,18 @@ app.post("/api/generate-plan", async (req, res) => {
   res.setHeader("Cache-Control", "no-cache");
   res.setHeader("Connection", "keep-alive");
   res.flushHeaders && res.flushHeaders();
+
+  // デモモード：サンプル計画書をストリーミング風に返す
+  if (DEMO) {
+    res.write(`data: ${JSON.stringify({ demo: true })}\n\n`);
+    const tokens = SAMPLE_PLAN.match(/[\s\S]{1,40}/g) || [SAMPLE_PLAN];
+    for (const t of tokens) {
+      res.write(`data: ${JSON.stringify({ text: t })}\n\n`);
+      await sleep(30);
+    }
+    res.write(`event: done\ndata: {}\n\n`);
+    return res.end();
+  }
 
   try {
     const stream = client.messages.stream({
@@ -152,6 +169,7 @@ ${RUBRIC.map((r, i) => `${i + 1}. ${r.name}：${r.detail}`).join("\n")}
 app.post("/api/critique-plan", async (req, res) => {
   const plan = (req.body && req.body.plan) || "";
   if (!plan.trim()) return res.status(400).json({ error: "plan が空です" });
+  if (DEMO) return res.json(SAMPLE_CRITIQUE);
   try {
     const msg = await client.messages.create({
       model: MODEL,
@@ -175,7 +193,9 @@ app.get("/api/questions", (_req, res) => res.json({ questions: QUESTIONS }));
 const PORT = process.env.PORT || 5179;
 app.listen(PORT, () => {
   console.log(`AI事業計画書アシスタント: http://localhost:${PORT}/plan.html`);
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.warn("⚠ ANTHROPIC_API_KEY が未設定です。AI機能を使うには設定してください。");
+  if (DEMO) {
+    console.warn("ℹ デモモードで起動中（サンプル出力）。本物のAI生成には ANTHROPIC_API_KEY を設定してください。");
+  } else {
+    console.log("✓ ANTHROPIC_API_KEY を検出。Claude Opus 4.8 で生成します。");
   }
 });
