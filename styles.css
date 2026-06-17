@@ -183,6 +183,8 @@ input:focus {
 /* 画面切り替え */
 .screen { display: none; }
 .screen.is-active { display: block; animation: fade 0.25s ease; }
+/* 一覧画面はヒーローとの重なりを避けて余白を確保 */
+#screen-results.is-active { padding-top: 34px; }
 @keyframes fade {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
