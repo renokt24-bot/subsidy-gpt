@@ -13,45 +13,57 @@
     </header>
 
     <main>
-      <form id="company-form" class="panel">
-        <h2>会社情報を入力</h2>
+      <!-- ============ 画面1: 入力フォーム ============ -->
+      <section id="screen-form" class="screen is-active">
+        <form id="company-form" class="panel" novalidate>
+          <h2>会社情報を入力</h2>
 
-        <div class="grid">
-          <div class="field">
-            <label for="prefecture">所在地（都道府県）</label>
-            <select id="prefecture" required></select>
+          <div class="grid">
+            <div class="field">
+              <label for="prefecture">所在地（都道府県）</label>
+              <select id="prefecture" required></select>
+            </div>
+
+            <div class="field">
+              <label for="industry">業種</label>
+              <select id="industry" required></select>
+            </div>
+
+            <div class="field">
+              <label for="employees">従業員数（人）</label>
+              <input id="employees" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 15" required />
+            </div>
+
+            <div class="field">
+              <label for="capital">資本金（万円）</label>
+              <input id="capital" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 1000" required />
+            </div>
+
+            <div class="field">
+              <label for="years">創業からの年数</label>
+              <input id="years" type="number" min="0" step="1" inputmode="numeric" placeholder="例: 3" required />
+            </div>
           </div>
 
           <div class="field">
-            <label for="industry">業種</label>
-            <select id="industry" required></select>
+            <label>やりたいこと（複数選択可）</label>
+            <div id="purposes" class="chips"></div>
           </div>
 
-          <div class="field">
-            <label for="employees">従業員数（人）</label>
-            <input id="employees" type="number" min="0" step="1" placeholder="例: 15" required />
-          </div>
+          <p id="form-error" class="form-error" hidden></p>
 
-          <div class="field">
-            <label for="capital">資本金（万円）</label>
-            <input id="capital" type="number" min="0" step="1" placeholder="例: 1000" required />
-          </div>
+          <button type="submit" class="cta">使える助成金を調べる</button>
+        </form>
+      </section>
 
-          <div class="field">
-            <label for="years">創業からの年数</label>
-            <input id="years" type="number" min="0" step="1" placeholder="例: 3" required />
-          </div>
+      <!-- ============ 画面2: 補助金一覧 ============ -->
+      <section id="screen-results" class="screen" aria-hidden="true">
+        <div class="results-bar">
+          <button type="button" id="back-button" class="back">← 条件を変更</button>
+          <div id="result-count" class="result-count"></div>
         </div>
-
-        <div class="field">
-          <label>やりたいこと（複数選択可）</label>
-          <div id="purposes" class="chips"></div>
-        </div>
-
-        <button type="submit" class="cta">使える助成金を調べる</button>
-      </form>
-
-      <section id="results" class="results"></section>
+        <div id="results" class="results"></div>
+      </section>
 
       <footer class="disclaimer">
         <p>

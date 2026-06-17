@@ -53,6 +53,31 @@
     };
   }
 
+  // 入力チェック（必須項目の確認）
+  function validate() {
+    const required = ["prefecture", "industry", "employees", "capital", "years"];
+    for (const id of required) {
+      const el = document.getElementById(id);
+      if (!el.value) {
+        el.focus();
+        return "すべての会社情報を入力してください。";
+      }
+    }
+    return null;
+  }
+
+  // 画面切り替え（入力フォーム ⇄ 補助金一覧）
+  function showScreen(name) {
+    const form = document.getElementById("screen-form");
+    const results = document.getElementById("screen-results");
+    const isResults = name === "results";
+    form.classList.toggle("is-active", !isResults);
+    results.classList.toggle("is-active", isResults);
+    form.setAttribute("aria-hidden", String(isResults));
+    results.setAttribute("aria-hidden", String(!isResults));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   // 判定の実行（収録ルールベースの助成金）
   function evaluate(company) {
     const results = [];
@@ -129,12 +154,20 @@
     out.innerHTML = "";
 
     const total = results.length + jgrants.length;
+
+    // 一覧画面ヘッダーの件数表示
+    const count = document.getElementById("result-count");
+    count.innerHTML =
+      total > 0
+        ? `<strong>${total}件</strong>の候補が見つかりました`
+        : `条件に一致する制度はありませんでした`;
+
     const summary = document.createElement("div");
     summary.className = "result-summary";
     summary.innerHTML =
       total > 0
-        ? `<strong>${total}件</strong>の助成金・補助金が候補として見つかりました（要件マッチ ${results.length}件／募集中の公式補助金 ${jgrants.length}件）。`
-        : "条件に一致する制度が見つかりませんでした。「やりたいこと」を追加で選択してみてください。";
+        ? `要件マッチ ${results.length}件／募集中の公式補助金 ${jgrants.length}件`
+        : "「やりたいこと」を追加で選択するか、条件を変えてお試しください。";
     out.appendChild(summary);
 
     if (results.length) {
@@ -206,8 +239,6 @@
     });
 
     renderJgrants(out, jgrants);
-
-    out.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   // jGrants（公式・募集中）の補助金カード群を描画
@@ -284,14 +315,27 @@
 
   function onSubmit(e) {
     e.preventDefault();
+    const errEl = document.getElementById("form-error");
+    const err = validate();
+    if (err) {
+      errEl.textContent = err;
+      errEl.hidden = false;
+      return;
+    }
+    errEl.hidden = true;
+
     const company = readCompany();
     const results = evaluate(company);
     const jgrants = filterJgrants(company);
     render(company, results, jgrants);
+    showScreen("results");
   }
 
   document.addEventListener("DOMContentLoaded", function () {
     buildForm();
     document.getElementById("company-form").addEventListener("submit", onSubmit);
+    document.getElementById("back-button").addEventListener("click", function () {
+      showScreen("form");
+    });
   });
 })();
