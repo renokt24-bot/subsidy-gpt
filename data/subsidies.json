@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-06-19T12:34:23.588Z",
-  "count": 267,
+  "updatedAt": "2026-06-20T08:33:57.529Z",
+  "count": 265,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDVdPMAX",
-      "title": "令和７年度臨床研修費等補助金（歯科医師）",
-      "institution": "臨床研修費等補助金",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-14T15:00:00.000Z",
-      "acceptanceEnd": "2026-06-19T14:59:00.000Z",
-      "purposes": [
-        "training"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVdPMAX"
-    },
-    {
-      "id": "a0WJ200000CDY6vMAH",
-      "title": "令和８年度社会福祉施設等への非常用電源等の整備促進事業補助金",
-      "institution": "社会福祉施設等への非常用電源等の整備促進事業補助金",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 3750000,
-      "acceptanceStart": "2026-05-01T05:00:00.000Z",
-      "acceptanceEnd": "2026-06-19T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6vMAH"
-    },
     {
       "id": "a0WJ200000CDYtFMAX",
       "title": "令和8年度_資源国脱炭素化・エネルギー転換技術等支援事業費補助金_第2回公募",
