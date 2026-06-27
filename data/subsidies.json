@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-06-26T08:40:27.242Z",
-  "count": 282,
+  "updatedAt": "2026-06-27T08:06:58.441Z",
+  "count": 281,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDaKjMAL",
-      "title": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
-      "institution": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業",
-      "prefecture": "神奈川県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-07T15:00:00.000Z",
-      "acceptanceEnd": "2026-06-26T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaKjMAL"
-    },
     {
       "id": "a0WJ200000CDYteMAH",
       "title": "【令和８年度・第３回】INPIT外国出願補助金",
