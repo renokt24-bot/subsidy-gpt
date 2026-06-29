@@ -1,57 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-06-28T08:34:04.827Z",
-  "count": 281,
+  "updatedAt": "2026-06-29T12:50:16.435Z",
+  "count": 280,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYteMAH",
-      "title": "【令和８年度・第３回】INPIT外国出願補助金",
-      "institution": "INPIT外国出願補助金",
-      "prefecture": "全国",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-06-08T01:00:00.000Z",
-      "acceptanceEnd": "2026-06-29T08:00:00.000Z",
-      "purposes": [
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYteMAH"
-    },
-    {
-      "id": "a0WJ200000CDZcyMAH",
-      "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "青森県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-05-25T01:00:00.000Z",
-      "acceptanceEnd": "2026-06-29T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZcyMAH"
-    },
-    {
-      "id": "a0WJ200000CDa6lMAD",
-      "title": "【宮崎県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "宮崎県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-06-01T06:00:00.000Z",
-      "acceptanceEnd": "2026-06-29T08:15:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa6lMAD"
-    },
     {
       "id": "a0WJ200000CDZCFMA5",
       "title": "令和７年度補正グローバルサウス未来志向型共創等事業費補助金（大型実証 非ＡＳＥＡＮ加盟国）",
@@ -1671,6 +1623,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6JMAT"
     },
     {
+      "id": "a0WJ200000CDcODMA1",
+      "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　３次締切分）",
+      "institution": "水力発電導入促進支援事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 20000000,
+      "acceptanceStart": "2026-06-27T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcODMA1"
+    },
+    {
       "id": "a0WJ200000CDTzMMAX",
       "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（19次締切）",
       "institution": "ものづくり補助金",
@@ -2295,6 +2263,20 @@
       "acceptanceEnd": "2026-12-25T02:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6dMAD"
+    },
+    {
+      "id": "a0WJ200000CDY2TMAX",
+      "title": "既存住宅流通活性化緊急促進事業",
+      "institution": null,
+      "prefecture": "北海道 / 宮城県 / 茨城県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 愛知県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 広島県 / 福岡県 / 佐賀県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 158000000,
+      "acceptanceStart": "2026-03-23T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2TMAX"
     },
     {
       "id": "a0WJ200000CDZyDMAX",
@@ -3837,7 +3819,7 @@
     {
       "id": "a0W2x000005iqyXEAQ",
       "title": "EMPの普及促進に係る補助金（新）",
-      "institution": null,
+      "institution": "EMPの普及促進に係る補助金",
       "prefecture": "東京都",
       "employeeMax": null,
       "employeeMin": null,
