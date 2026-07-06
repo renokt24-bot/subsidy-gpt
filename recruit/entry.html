@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>応募フォーム | 全力ストレッチ 採用サイト</title>
+<meta name="description" content="全力ストレッチ トレーナー応募フォーム。入力は4項目・約30秒。店舗見学のお申し込みもこちらから。">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/entry.css">
+</head>
+<body class="is-loaded entry-page">
+
+<header class="header is-scrolled">
+  <a class="header__logo" href="index.html">
+    <span class="header__logo-en">ZENRYOKU STRETCH</span>
+    <span class="header__logo-ja">全力ストレッチ 採用サイト</span>
+  </a>
+  <a class="entry-back" href="index.html">← 採用サイトへ戻る</a>
+</header>
+
+<main class="entry-main">
+  <div class="entry-form-wrap">
+    <p class="section__en">ENTRY FORM</p>
+    <h1 class="entry-form__title" id="formTitle">応募フォーム</h1>
+    <p class="entry-form__lead" id="formLead">入力は4項目・約30秒で完了します。<br>応募=面接ではありません。まずはお話から始めましょう。</p>
+
+    <!-- 応募種別 -->
+    <div class="entry-form__type" role="radiogroup" aria-label="ご希望の内容">
+      <label class="type-chip">
+        <input type="radio" name="type" value="apply" checked>
+        <span>正式に応募する</span>
+      </label>
+      <label class="type-chip">
+        <input type="radio" name="type" value="tour">
+        <span>店舗見学・カジュアル面談<small>(履歴書不要)</small></span>
+      </label>
+    </div>
+
+    <!-- 実装メモ: 送信先はFormspree / Googleフォーム / 自社APIのいずれかに接続。
+         action属性を差し替えるだけで動作します。 -->
+    <form class="entry-form" id="entryForm" novalidate>
+      <div class="field">
+        <label for="name">お名前 <em>必須</em></label>
+        <input type="text" id="name" name="name" autocomplete="name" placeholder="山田 花子" required>
+        <p class="field__error">お名前を入力してください</p>
+      </div>
+
+      <div class="field">
+        <label for="contact">電話番号 または LINE ID <em>必須</em></label>
+        <input type="text" id="contact" name="contact" autocomplete="tel" placeholder="090-1234-5678 / LINE ID" required>
+        <p class="field__error">ご連絡先を入力してください</p>
+      </div>
+
+      <div class="field">
+        <span class="field__label">希望店舗 <em>必須</em></span>
+        <div class="field__radios" role="radiogroup">
+          <label class="radio-chip"><input type="radio" name="store" value="omiya" required><span>大宮東口店</span></label>
+          <label class="radio-chip"><input type="radio" name="store" value="akabane"><span>赤羽店</span></label>
+          <label class="radio-chip"><input type="radio" name="store" value="either"><span>どちらでも可</span></label>
+        </div>
+        <p class="field__error">希望店舗を選択してください</p>
+      </div>
+
+      <div class="field">
+        <span class="field__label">施術のご経験 <em>必須</em></span>
+        <div class="field__radios" role="radiogroup">
+          <label class="radio-chip"><input type="radio" name="experience" value="none" required><span>未経験</span></label>
+          <label class="radio-chip"><input type="radio" name="experience" value="some"><span>経験あり</span></label>
+        </div>
+        <p class="field__error">ご経験の有無を選択してください</p>
+      </div>
+
+      <button type="submit" class="btn btn--gold btn--lg entry-form__submit">
+        送信する<small>3営業日以内にご連絡します</small>
+      </button>
+      <p class="entry-form__privacy">送信いただいた情報は採用選考の目的にのみ使用します。</p>
+    </form>
+
+    <!-- 送信完了 -->
+    <div class="entry-done" id="entryDone" hidden>
+      <p class="entry-done__en">THANK YOU</p>
+      <h2 class="entry-done__title">送信が完了しました。</h2>
+      <p class="entry-done__text">ご応募ありがとうございます。<br>担当者より<b>3営業日以内</b>にご連絡いたします。<br>お会いできるのを楽しみにしています。</p>
+      <a class="btn btn--ghost" href="index.html">採用サイトへ戻る</a>
+    </div>
+
+    <p class="entry-form__alt">
+      フォームが苦手な方は
+      <!-- 実装メモ: LINE公式アカウントのURLに差し替え -->
+      <a href="https://lin.ee/XXXXXXX" target="_blank" rel="noopener">LINEからの応募</a>
+      も受け付けています。
+    </p>
+  </div>
+</main>
+
+<footer class="footer">
+  <p class="footer__copy">&copy; 2026 ZENRYOKU STRETCH. All Rights Reserved.</p>
+</footer>
+
+<script src="js/entry.js"></script>
+</body>
+</html>

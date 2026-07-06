@@ -1,0 +1,138 @@
+/* 応募フォームページ専用スタイル */
+
+.entry-page { min-height: 100vh; display: flex; flex-direction: column; }
+
+.entry-back {
+  font-size: 12px; letter-spacing: 0.14em; color: var(--beige-dim);
+  white-space: nowrap; flex-shrink: 0; margin-left: 16px;
+  transition: color 0.3s;
+}
+.entry-back:hover { color: var(--gold); }
+
+.entry-main {
+  flex: 1;
+  padding: 140px clamp(20px, 5vw, 48px) 100px;
+  display: flex; justify-content: center;
+}
+.entry-form-wrap { width: 100%; max-width: 640px; }
+
+.entry-form__title {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(26px, 4.4vw, 38px);
+  letter-spacing: 0.12em; color: var(--white);
+  margin-bottom: 18px;
+}
+.entry-form__lead { font-size: 13.5px; color: var(--beige-dim); margin-bottom: 40px; }
+
+/* 応募種別チップ */
+.entry-form__type {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  margin-bottom: 44px;
+}
+.type-chip input { position: absolute; opacity: 0; }
+.type-chip span {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 2px; text-align: center;
+  min-height: 68px;
+  border: 1px solid rgba(234, 227, 216, 0.25);
+  font-size: 13.5px; letter-spacing: 0.08em; line-height: 1.6;
+  color: var(--beige); cursor: pointer;
+  transition: border-color 0.35s, background 0.35s, color 0.35s;
+}
+.type-chip span small { font-size: 10px; color: var(--beige-dim); }
+.type-chip input:checked + span {
+  border-color: var(--gold);
+  background: rgba(200, 169, 106, 0.12);
+  color: var(--gold-bright);
+}
+.type-chip input:checked + span small { color: var(--gold); }
+.type-chip input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* フィールド */
+.field { margin-bottom: 34px; }
+.field label, .field .field__label {
+  display: block;
+  font-family: var(--serif); font-size: 14px; letter-spacing: 0.16em;
+  color: var(--white); margin-bottom: 12px;
+}
+.field em {
+  font-style: normal; font-family: var(--sans);
+  font-size: 10px; letter-spacing: 0.16em;
+  color: var(--black); background: var(--gold);
+  padding: 2px 8px; margin-left: 10px; vertical-align: 2px;
+}
+.field input[type="text"] {
+  width: 100%;
+  background: var(--ink);
+  border: 1px solid rgba(234, 227, 216, 0.22);
+  color: var(--white);
+  font-family: var(--sans); font-size: 16px; letter-spacing: 0.06em;
+  padding: 16px 18px;
+  transition: border-color 0.35s;
+}
+.field input[type="text"]::placeholder { color: rgba(184, 173, 156, 0.45); }
+.field input[type="text"]:focus {
+  outline: none; border-color: var(--gold);
+}
+.field__radios { display: flex; flex-wrap: wrap; gap: 10px; }
+.radio-chip input { position: absolute; opacity: 0; }
+.radio-chip span {
+  display: inline-block;
+  border: 1px solid rgba(234, 227, 216, 0.25);
+  font-size: 13.5px; letter-spacing: 0.1em; color: var(--beige);
+  padding: 12px 26px; cursor: pointer;
+  transition: border-color 0.35s, background 0.35s, color 0.35s;
+}
+.radio-chip input:checked + span {
+  border-color: var(--gold);
+  background: rgba(200, 169, 106, 0.12);
+  color: var(--gold-bright);
+}
+.radio-chip input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+.field__error {
+  display: none;
+  font-size: 11px; letter-spacing: 0.08em; color: #d98a7a;
+  margin-top: 8px;
+}
+.field.has-error .field__error { display: block; }
+.field.has-error input[type="text"] { border-color: #d98a7a; }
+.field.has-error .radio-chip span { border-color: rgba(217, 138, 122, 0.6); }
+
+.entry-form__submit { width: 100%; border: none; cursor: pointer; margin-top: 8px; }
+.entry-form__privacy {
+  margin-top: 18px; text-align: center;
+  font-size: 11px; letter-spacing: 0.08em; color: var(--beige-dim);
+}
+
+/* 送信完了 */
+.entry-done { text-align: center; padding: 40px 0 20px; }
+.entry-done__en {
+  font-family: var(--en); font-style: italic;
+  font-size: clamp(40px, 8vw, 72px); line-height: 1;
+  color: transparent; -webkit-text-stroke: 1px rgba(200, 169, 106, 0.4);
+  margin-bottom: 28px;
+}
+.entry-done__title {
+  font-family: var(--serif); font-size: clamp(22px, 3.6vw, 30px);
+  letter-spacing: 0.14em; color: var(--white); margin-bottom: 20px;
+}
+.entry-done__text { font-size: 14px; color: var(--beige-dim); margin-bottom: 40px; }
+.entry-done__text b { color: var(--gold); font-weight: 500; }
+
+.entry-form__alt {
+  margin-top: 48px; text-align: center;
+  font-size: 12.5px; color: var(--beige-dim);
+  border-top: 1px solid rgba(234, 227, 216, 0.12);
+  padding-top: 32px;
+}
+.entry-form__alt a {
+  color: var(--gold);
+  border-bottom: 1px solid rgba(200, 169, 106, 0.5);
+  padding-bottom: 2px;
+}
+
+@media (max-width: 560px) {
+  .entry-form__type { grid-template-columns: 1fr; }
+  .entry-main { padding-top: 110px; }
+}
