@@ -14,14 +14,18 @@
 
 <!-- ローディング演出 -->
 <div class="loader" id="loader" aria-hidden="true">
+  <svg class="loader__mark" viewBox="0 0 100 64" aria-hidden="true" focusable="false"><path pathLength="100" d="M4 8h48L6 56h40V12m6-4 42 52M92 6v42" fill="none" stroke="currentColor" stroke-width="5"/></svg>
   <p class="loader__copy"><span>全</span><span>力</span><span>で</span><span>、</span><span>い</span><span>こ</span><span>う</span><span>。</span></p>
 </div>
 
 <!-- ヘッダー -->
 <header class="header" id="header">
   <a class="header__logo" href="#hero">
-    <span class="header__logo-en">ZENRYOKU STRETCH</span>
-    <span class="header__logo-ja">全力ストレッチ 採用サイト</span>
+    <svg class="logo-mark" viewBox="0 0 100 64" aria-hidden="true" focusable="false"><path d="M4 8h48L6 56h40V12m6-4 42 52M92 6v42" fill="none" stroke="currentColor" stroke-width="5"/></svg>
+    <span class="header__logo-text">
+      <span class="header__logo-en">ZENRYOKU STRETCH</span>
+      <span class="header__logo-ja">全力ストレッチ 採用サイト</span>
+    </span>
   </a>
   <nav class="header__nav" id="gnav" aria-label="グローバルナビゲーション">
     <a href="#message">想い</a>
@@ -49,6 +53,7 @@
   </div>
   <p class="hero__watermark" aria-hidden="true">ZENRYOKU</p>
   <div class="hero__inner">
+    <p class="hero__eyebrow hero__line"><span>ZENRYOKU STRETCH — PHYSICAL CONDITIONING SALON</span></p>
     <h1 class="hero__copy">
       <span class="hero__line"><span>その手で、</span></span>
       <span class="hero__line"><span>人生を伸ばす。</span></span>
@@ -362,7 +367,12 @@
 
 <!-- フッター -->
 <footer class="footer">
-  <p class="footer__logo">ZENRYOKU STRETCH<span>全力ストレッチ 大宮東口店・赤羽店</span></p>
+  <div class="footer__logo">
+    <svg class="logo-mark logo-mark--footer" viewBox="0 0 100 64" aria-hidden="true" focusable="false"><path d="M4 8h48L6 56h40V12m6-4 42 52M92 6v42" fill="none" stroke="currentColor" stroke-width="5"/></svg>
+    <span class="footer__logo-en">ZENRYOKU STRETCH</span>
+    <span class="footer__tagline">PHYSICAL CONDITIONING SALON</span>
+    <span class="footer__logo-ja">全力ストレッチ 大宮東口店・赤羽店</span>
+  </div>
   <nav class="footer__nav">
     <a href="https://kehare.github.io/zenryoku-stretch-hp/index.html" target="_blank" rel="noopener">店舗公式サイト</a>
     <a href="entry.html">応募フォーム</a>

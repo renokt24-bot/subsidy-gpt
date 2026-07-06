@@ -13,11 +13,11 @@
   if (prefersReduced) {
     finishLoading();
   } else {
-    // フォント読み込みを待ちつつ、最低1.4秒はコピーを見せる
-    var minWait = new Promise(function (r) { setTimeout(r, 1400); });
+    // フォント読み込みを待ちつつ、ロゴ描画+コピーを最後まで見せる
+    var minWait = new Promise(function (r) { setTimeout(r, 2300); });
     var fonts = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
     Promise.all([minWait, fonts]).then(finishLoading);
-    setTimeout(finishLoading, 3500); // フェイルセーフ
+    setTimeout(finishLoading, 4200); // フェイルセーフ
   }
 
   /* ---------- ヘッダー背景 & 追従CTA ---------- */

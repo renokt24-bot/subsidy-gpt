@@ -44,10 +44,20 @@ ul, ol { list-style: none; }
 .loader {
   position: fixed; inset: 0; z-index: 100;
   background: var(--black);
-  display: flex; align-items: center; justify-content: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 30px;
   transition: opacity 0.9s var(--ease), visibility 0.9s;
 }
 .loader.is-done { opacity: 0; visibility: hidden; }
+.loader__mark {
+  width: clamp(72px, 12vw, 104px); height: auto;
+  color: var(--beige); overflow: visible;
+}
+.loader__mark path {
+  stroke-dasharray: 100; stroke-dashoffset: 100;
+  animation: logoDraw 1.5s var(--ease) 0.1s forwards;
+}
+@keyframes logoDraw { to { stroke-dashoffset: 0; } }
 .loader__copy {
   font-family: var(--serif); font-size: clamp(20px, 4vw, 32px);
   letter-spacing: 0.35em; color: var(--beige);
@@ -56,14 +66,14 @@ ul, ol { list-style: none; }
   display: inline-block; opacity: 0;
   animation: loaderChar 0.8s var(--ease) forwards;
 }
-.loader__copy span:nth-child(1) { animation-delay: 0.10s; }
-.loader__copy span:nth-child(2) { animation-delay: 0.18s; }
-.loader__copy span:nth-child(3) { animation-delay: 0.26s; }
-.loader__copy span:nth-child(4) { animation-delay: 0.34s; }
-.loader__copy span:nth-child(5) { animation-delay: 0.42s; }
-.loader__copy span:nth-child(6) { animation-delay: 0.50s; }
-.loader__copy span:nth-child(7) { animation-delay: 0.58s; }
-.loader__copy span:nth-child(8) { animation-delay: 0.66s; }
+.loader__copy span:nth-child(1) { animation-delay: 0.70s; }
+.loader__copy span:nth-child(2) { animation-delay: 0.78s; }
+.loader__copy span:nth-child(3) { animation-delay: 0.86s; }
+.loader__copy span:nth-child(4) { animation-delay: 0.94s; }
+.loader__copy span:nth-child(5) { animation-delay: 1.02s; }
+.loader__copy span:nth-child(6) { animation-delay: 1.10s; }
+.loader__copy span:nth-child(7) { animation-delay: 1.18s; }
+.loader__copy span:nth-child(8) { animation-delay: 1.26s; }
 @keyframes loaderChar {
   from { opacity: 0; transform: translateY(0.6em); }
   to   { opacity: 1; transform: translateY(0); }
@@ -82,7 +92,10 @@ ul, ol { list-style: none; }
   -webkit-backdrop-filter: blur(12px);
   padding-top: 12px; padding-bottom: 12px;
 }
-.header__logo { display: flex; flex-direction: column; line-height: 1.4; }
+.logo-mark { display: block; width: auto; flex-shrink: 0; }
+.header__logo { display: flex; align-items: center; gap: 14px; color: var(--white); }
+.header__logo .logo-mark { height: 30px; }
+.header__logo-text { display: flex; flex-direction: column; line-height: 1.4; }
 .header__logo-en {
   font-family: var(--en); font-size: 18px; letter-spacing: 0.22em;
   color: var(--white);
@@ -178,6 +191,12 @@ ul, ol { list-style: none; }
   white-space: nowrap;
 }
 .hero__inner { position: relative; z-index: 2; max-width: 1100px; }
+.hero__eyebrow { margin-bottom: 26px; }
+.hero__eyebrow > span {
+  transition-delay: 0.75s;
+  font-family: var(--en); font-size: clamp(10px, 1.2vw, 13px);
+  letter-spacing: 0.42em; color: var(--gold);
+}
 .hero__copy {
   font-family: var(--serif); font-weight: 600;
   font-size: clamp(38px, 7.4vw, 88px);
@@ -582,11 +601,19 @@ body.is-loaded .hero__scroll { opacity: 1; }
   border-top: 1px solid rgba(234, 227, 216, 0.08);
 }
 .footer__logo {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.logo-mark--footer { height: 46px; color: var(--white); margin-bottom: 8px; }
+.footer__logo-en {
   font-family: var(--en); font-size: 18px; letter-spacing: 0.26em; color: var(--white);
 }
-.footer__logo span {
-  display: block; font-family: var(--sans); font-size: 10px;
-  letter-spacing: 0.3em; color: var(--beige-dim); margin-top: 8px;
+.footer__tagline {
+  font-family: var(--en); font-size: 9px; letter-spacing: 0.5em;
+  color: var(--gold);
+}
+.footer__logo-ja {
+  font-family: var(--sans); font-size: 10px;
+  letter-spacing: 0.3em; color: var(--beige-dim); margin-top: 6px;
 }
 .footer__nav { margin-top: 28px; display: flex; justify-content: center; gap: 32px; }
 .footer__nav a {
@@ -645,6 +672,8 @@ body.is-loaded .hero__scroll { opacity: 1; }
 
   /* ナビ → ドロワー */
   .header { padding: 14px 20px; }
+  .header__logo { gap: 10px; }
+  .header__logo .logo-mark { height: 26px; }
   .header__nav {
     position: fixed; inset: 0;
     background: rgba(12, 12, 12, 0.97);
