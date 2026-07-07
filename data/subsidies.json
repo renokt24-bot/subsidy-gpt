@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-06T12:16:30.279Z",
-  "count": 263,
+  "updatedAt": "2026-07-07T08:58:13.800Z",
+  "count": 266,
   "subsidies": [
     {
       "id": "a0WJ200000CDbEWMA1",
@@ -752,6 +752,36 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbJKMA1"
     },
     {
+      "id": "a0WJ200000CDc1RMAT",
+      "title": "【静岡県産業振興財団】令和8年度　研究開発助成（産学官連携型）２次募集",
+      "institution": "新成長産業戦略的育成事業助成事業",
+      "prefecture": "静岡県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-07T04:45:00.000Z",
+      "acceptanceEnd": "2026-07-29T03:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1RMAT"
+    },
+    {
+      "id": "a0WJ200000CDcfNMAT",
+      "title": "【静岡県産業振興財団】令和8年度　事業化推進助成（一般型）２次募集",
+      "institution": "新成長産業戦略的育成事業助成事業",
+      "prefecture": "静岡県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-07T04:45:00.000Z",
+      "acceptanceEnd": "2026-07-29T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcfNMAT"
+    },
+    {
       "id": "a0WJ200000CDNujMAH",
       "title": "情報通信拠点機能強化支援事業費補助金",
       "institution": null,
@@ -1020,6 +1050,20 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaL8MAL"
+    },
+    {
+      "id": "a0WJ200000CDYv8MAH",
+      "title": "「安定供給確保支援基金事業（永久磁石）に関する効果検証調査」の公募",
+      "institution": "P23017_安定供給確保支援基金事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-07T01:00:00.000Z",
+      "acceptanceEnd": "2026-08-05T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYv8MAH"
     },
     {
       "id": "a0WJ200000CDaLwMAL",
@@ -2564,7 +2608,7 @@
       "employeeMin": null,
       "employeeLimitText": "従業員数の制約なし",
       "maxAmount": 0,
-      "acceptanceStart": "2026-06-10T15:00:00.000Z",
+      "acceptanceStart": "2026-06-04T00:00:00.000Z",
       "acceptanceEnd": "2027-02-26T08:00:00.000Z",
       "purposes": [
         "equipment"
