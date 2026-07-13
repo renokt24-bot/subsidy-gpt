@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-12T00:15:04.348Z",
-  "count": 272,
+  "updatedAt": "2026-07-13T00:14:12.266Z",
+  "count": 274,
   "subsidies": [
     {
       "id": "a0WJ200000CDa47MAD",
@@ -1191,6 +1191,38 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZBgMAP"
+    },
+    {
+      "id": "a0WJ200000CDYtoMAH",
+      "title": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）第２次募集",
+      "institution": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "香川県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-07-13T00:00:00.000Z",
+      "acceptanceEnd": "2026-08-21T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYtoMAH"
+    },
+    {
+      "id": "a0WJ200000CDb8QMAT",
+      "title": "令和8年度 洋上風力発電人材育成事業費補助金（第2次公募）",
+      "institution": "令和8年度 洋上風力発電人材育成事業費 補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-07-13T00:00:00.000Z",
+      "acceptanceEnd": "2026-08-24T06:00:00.000Z",
+      "purposes": [
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb8QMAT"
     },
     {
       "id": "a0WJ200000CDaMLMA1",
