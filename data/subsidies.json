@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-13T00:14:12.266Z",
-  "count": 274,
+  "updatedAt": "2026-07-14T00:09:17.044Z",
+  "count": 276,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDa47MAD",
-      "title": "「バイオものづくり分野のLCAガイドラインの改善及び普及に向けた調査」の公募",
-      "institution": "P22021_バイオものづくり革命推進事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-19T01:00:00.000Z",
-      "acceptanceEnd": "2026-07-13T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa47MAD"
-    },
     {
       "id": "a0WJ200000CDYslMAH",
       "title": "「太陽光発電導入拡大等技術開発事業／NEDOプロジェクトを核とした人材育成、産学連携等の総合的展開／ペロブスカイト太陽電池の研究開発・実装を担う人材育成特別講座」の公募",
@@ -364,6 +350,22 @@
       "acceptanceEnd": "2026-07-21T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYLLMA5"
+    },
+    {
+      "id": "a0WJ200000CDc1IMAT",
+      "title": "第１３回（令和８年度第２回）躍進的な事業推進のための設備投資支援事業",
+      "institution": "躍進的な事業推進のための設備投資支援事業",
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 200000000,
+      "acceptanceStart": "2026-07-14T00:00:00.000Z",
+      "acceptanceEnd": "2026-07-23T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1IMAT"
     },
     {
       "id": "a0WJ200000CDbzXMAT",
@@ -1735,6 +1737,38 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5"
+    },
+    {
+      "id": "a0WJ200000CDd3OMAT",
+      "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（四次公募）",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-13T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-20T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3OMAT"
+    },
+    {
+      "id": "a0WJ200000CDd3YMAT",
+      "title": "令和８年度地域脱炭素実現に向けた具体的施策実装支援事業",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-13T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-20T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3YMAT"
     },
     {
       "id": "a0WJ200000CDYzQMAX",
