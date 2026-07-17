@@ -1,151 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-17T00:16:01.031Z",
-  "count": 278,
+  "updatedAt": "2026-07-17T21:57:45.276Z",
+  "count": 272,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYvOMAX",
-      "title": "令和８年度 第１回 事業承継支援助成金",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 2000000,
-      "acceptanceStart": "2026-06-01T05:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvOMAX"
-    },
-    {
-      "id": "a0WJ200000CDaSiMAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（新築建築物のZEB普及促進支援事業/既存建築物のZEB化普及促進支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSiMAL"
-    },
-    {
-      "id": "a0WJ200000CDaSjMAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（ライフサイクルカーボン削減型の先導的な新築ZEB支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 500000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSjMAL"
-    },
-    {
-      "id": "a0WJ200000CDaSnMAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（クーリングシェルターの普及に向けた高効率空調導入支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 10000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSnMAL"
-    },
-    {
-      "id": "a0WJ200000CDaSsMAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（民間建築物等における省CO2改修支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 35000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSsMAL"
-    },
-    {
-      "id": "a0WJ200000CDaSxMAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（テナントビルの省CO2改修支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 40000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSxMAL"
-    },
-    {
-      "id": "a0WJ200000CDaT2MAL",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（空き家等における省CO2改修支援事業）",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 10000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaT2MAL"
-    },
-    {
-      "id": "a0WJ200000CDbpvMAD",
-      "title": "【令和８年度】サステナブル倉庫モデル促進事業",
-      "institution": "サステナブル倉庫モデル促進事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 100000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbpvMAD"
-    },
-    {
-      "id": "a0WJ200000CDbq0MAD",
-      "title": "【令和８年度】フェーズフリーの省CO2独立型施設支援事業",
-      "institution": "フェーズフリーの省CO2独立型施設支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 35000000,
-      "acceptanceStart": "2026-06-22T06:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbq0MAD"
-    },
-    {
-      "id": "a0WJ200000CDPL5MAP",
-      "title": "フィンテック産業における協業基盤整備支援事業補助金",
-      "institution": "フィンテック産業における協業基盤整備支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 10000000,
-      "acceptanceStart": "2026-04-08T05:00:00.000Z",
-      "acceptanceEnd": "2026-07-17T15:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPL5MAP"
-    },
     {
       "id": "a0WJ200000CDZIyMAP",
       "title": "【一次公募】令和8年度　貿易プラットフォーム活用による貿易手続デジタル化推進事業費補助金",
@@ -367,6 +225,20 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUSMA5"
+    },
+    {
+      "id": "a0WJ200000CDYqvMAH",
+      "title": "令和８年度　ＦＳ調査事業　第２次公募　【　廃棄物処理施設を核とした地域循環共生圏構築促進事業　】",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設を核とした地域循環共生圏構築促進事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-06-08T00:00:00.000Z",
+      "acceptanceEnd": "2026-07-24T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYqvMAH"
     },
     {
       "id": "a0WJ200000CDZd3MAH",
@@ -1290,6 +1162,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEHMA5"
     },
     {
+      "id": "a0WJ200000CDdJhMAL",
+      "title": "GX地域共創補助金2026",
+      "institution": "令和8年度 脱炭素電源地域貢献型投資促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 25000000000,
+      "acceptanceStart": "2026-07-17T07:00:00.000Z",
+      "acceptanceEnd": "2026-09-01T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdJhMAL"
+    },
+    {
       "id": "a0WJ200000CDYUNMA5",
       "title": "令和８年度ゼロエミッション推進に向けた事業転換支援事業（製品開発助成）",
       "institution": null,
@@ -1444,6 +1330,22 @@
       "acceptanceEnd": "2026-09-30T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000004PhCHEA0"
+    },
+    {
+      "id": "a0WJ200000CDdRHMA1",
+      "title": "【令和８年度】ハイブリッド連節バス導入支援事業（環境配慮型先進トラック・バス導入加速事業）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-17T05:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdRHMA1"
     },
     {
       "id": "a0WJ200000CDY6tMAH",
@@ -2491,6 +2393,22 @@
       "acceptanceEnd": "2027-01-29T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSPMA5"
+    },
+    {
+      "id": "a0WJ200000CDdPBMA1",
+      "title": "【令和８年度】ハイブリッド及び天然ガストラック・バス導入支援事業（環境配慮型先進トラック・バス導入加速事業）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-17T05:00:00.000Z",
+      "acceptanceEnd": "2027-01-29T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPBMA1"
     },
     {
       "id": "a0WJ200000CDZDCMA5",
