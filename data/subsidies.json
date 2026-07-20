@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-19T21:58:24.239Z",
-  "count": 272,
+  "updatedAt": "2026-07-20T22:04:37.806Z",
+  "count": 273,
   "subsidies": [
     {
       "id": "a0WJ200000CDZIyMAP",
@@ -1174,6 +1174,20 @@
       "acceptanceEnd": "2026-09-01T03:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdJhMAL"
+    },
+    {
+      "id": "a0WJ200000CDY6vMAH",
+      "title": "令和８年度社会福祉施設等への非常用電源等の整備促進事業補助金",
+      "institution": "社会福祉施設等への非常用電源等の整備促進事業補助金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 3750000,
+      "acceptanceStart": "2026-07-20T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-04T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6vMAH"
     },
     {
       "id": "a0WJ200000CDYUNMA5",
