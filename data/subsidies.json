@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-21T22:07:15.262Z",
-  "count": 273,
+  "updatedAt": "2026-07-22T22:08:55.298Z",
+  "count": 281,
   "subsidies": [
     {
       "id": "a0WJ200000CDYslMAH",
@@ -922,6 +922,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3iMAD"
     },
     {
+      "id": "a0WJ200000CDd4BMAT",
+      "title": "令和８年度東京都医療機関等物価高騰緊急対策支援金(無床診療所・歯科診療所・無床助産所、施術所・歯科技工所　申請用）",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 5511246000,
+      "acceptanceStart": "2026-07-22T15:00:00.000Z",
+      "acceptanceEnd": "2026-08-14T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd4BMAT"
+    },
+    {
       "id": "a0WJ200000CDc0sMAD",
       "title": "「次世代冷却に係るマテリアル・デバイスの開発動向に関する調査」の公募",
       "institution": "P99029_戦略策定調査事業",
@@ -985,6 +999,23 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDckaMAD"
+    },
+    {
+      "id": "a0WJ200000CDdSBMA1",
+      "title": "令和7年度補正　デジタルライフライン整備加速事業（ドローン航路整備事業）",
+      "institution": "令和7年度補正　デジタルライフライン整備加速事業（ドローン航路整備事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-22T06:00:00.000Z",
+      "acceptanceEnd": "2026-08-21T06:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdSBMA1"
     },
     {
       "id": "a0WJ200000CDdRCMA1",
@@ -1772,6 +1803,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYfxMAH"
     },
     {
+      "id": "a0WJ200000CDddVMAT",
+      "title": "【山形県】令和8年度やまがた未来くるエネルギー補助金（山形県再生可能エネルギー等設備導入促進事業）",
+      "institution": "やまがた未来くるエネルギー補助金",
+      "prefecture": "山形県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-04-16T00:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddVMAT"
+    },
+    {
       "id": "a0WJ200000CDZIAMA5",
       "title": "埼玉県中小企業等奨学金返還支援事業補助金（令和８年度）",
       "institution": "埼玉県中小企業等奨学金返還支援事業補助金（令和８年度）",
@@ -2041,6 +2088,36 @@
       "acceptanceEnd": "2026-12-25T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2TMAX"
+    },
+    {
+      "id": "a0WJ200000CDddWMAT",
+      "title": "【山形県】令和8年度山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+      "institution": "山形県再生可能エネルギー(小水力発電)事業可能性調査事業費補助金",
+      "prefecture": "山形県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 750000,
+      "acceptanceStart": "2026-04-01T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddWMAT"
+    },
+    {
+      "id": "a0WJ200000CDddXMAT",
+      "title": "【山形県】令和8年度地域主導型再生可能エネルギー導入支援事業費補助金",
+      "institution": "地域主導型再生可能エネルギー導入支援事業費補助金",
+      "prefecture": "山形県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 240000,
+      "acceptanceStart": "2026-04-01T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T08:15:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddXMAT"
     },
     {
       "id": "a0WJ200000CDZyDMAX",
@@ -3609,6 +3686,40 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW4MAP"
     },
     {
+      "id": "a0WJ20000087jeOMAQ",
+      "title": "令和６年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 141000,
+      "acceptanceStart": "2024-09-27T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000087jeOMAQ"
+    },
+    {
+      "id": "a0WJ200000CDRArMAP",
+      "title": "令和７年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 141000,
+      "acceptanceStart": "2025-07-25T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDRArMAP"
+    },
+    {
       "id": "a0WJ200000CDXoBMAX",
       "title": "令和８年_設備投資_事業完了後申請",
       "institution": null,
@@ -3693,6 +3804,20 @@
       "acceptanceEnd": "2027-03-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000003QZLqEAO"
+    },
+    {
+      "id": "a0WJ200000CDdL9MAL",
+      "title": "令和８年度 医学技術振興事業",
+      "institution": "0101475 医学技術振興事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-10T03:00:00.000Z",
+      "acceptanceEnd": "2027-05-31T10:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdL9MAL"
     },
     {
       "id": "a0W2x000005iqyXEAQ",
