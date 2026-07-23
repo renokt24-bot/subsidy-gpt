@@ -1,43 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-22T22:08:55.298Z",
-  "count": 281,
+  "updatedAt": "2026-07-23T22:08:41.504Z",
+  "count": 279,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYslMAH",
-      "title": "「太陽光発電導入拡大等技術開発事業／NEDOプロジェクトを核とした人材育成、産学連携等の総合的展開／ペロブスカイト太陽電池の研究開発・実装を担う人材育成特別講座」の公募",
-      "institution": "P25011_太陽光発電導入拡大等技術開発事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-10T01:00:00.000Z",
-      "acceptanceEnd": "2026-07-23T03:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "sales",
-        "training"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYslMAH"
-    },
-    {
-      "id": "a0WJ200000CDc1IMAT",
-      "title": "第１３回（令和８年度第２回）躍進的な事業推進のための設備投資支援事業",
-      "institution": "躍進的な事業推進のための設備投資支援事業",
-      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 200000000,
-      "acceptanceStart": "2026-07-14T00:00:00.000Z",
-      "acceptanceEnd": "2026-07-23T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1IMAT"
-    },
     {
       "id": "a0WJ200000CDbzXMAT",
       "title": "【農林水産省】令和7年度補正ウクライナ農業回復緊急支援事業（２次公募）",
