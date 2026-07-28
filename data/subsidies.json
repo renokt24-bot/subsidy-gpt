@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-27T22:11:34.874Z",
-  "count": 271,
+  "updatedAt": "2026-07-28T22:10:05.402Z",
+  "count": 275,
   "subsidies": [
     {
       "id": "a0WJ200000CDc1RMAT",
@@ -684,6 +684,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL"
     },
     {
+      "id": "a0WJ200000CDdNyMAL",
+      "title": "「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の公募",
+      "institution": "P24012_フロンティア領域の探索・重点支援のためのＧＸイノベーション・エコシステム構築事業推進に係る検討",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-28T01:00:00.000Z",
+      "acceptanceEnd": "2026-08-21T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNyMAL"
+    },
+    {
       "id": "a0WJ200000CDckaMAD",
       "title": "「ポスト5G情報通信システム基盤強化研究開発事業／AI用データセンターにおけるソフトウェア技術ニーズ分析とテストベッド運営基盤に関する調査」の公募",
       "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
@@ -1077,6 +1091,40 @@
       "acceptanceEnd": "2026-09-11T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXuqMAH"
+    },
+    {
+      "id": "a0WJ200000CDYlTMAX",
+      "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+      "institution": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 20000000000,
+      "acceptanceStart": "2026-07-28T06:00:00.000Z",
+      "acceptanceEnd": "2026-09-14T06:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYlTMAX"
+    },
+    {
+      "id": "a0WJ200000CDd5SMAT",
+      "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源 循環システム強靱化促進事業）（事前着手届出）【一次公募】",
+      "institution": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-28T06:00:00.000Z",
+      "acceptanceEnd": "2026-09-14T06:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5SMAT"
     },
     {
       "id": "a0WJ200000CDb6JMAT",
@@ -1536,6 +1584,22 @@
       "acceptanceEnd": "2026-10-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
+    },
+    {
+      "id": "a0WJ200000CDNDnMAP",
+      "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
+      "institution": "脱炭素成長型経済構造移行推進対策費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1500000000,
+      "acceptanceStart": "2026-07-28T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-13T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP"
     },
     {
       "id": "a0WJ200000CDZXbMAP",
