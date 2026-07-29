@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-28T22:10:05.402Z",
-  "count": 275,
+  "updatedAt": "2026-07-29T22:04:14.116Z",
+  "count": 273,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDc1RMAT",
-      "title": "【静岡県産業振興財団】令和8年度　研究開発助成（産学官連携型）２次募集",
-      "institution": "新成長産業戦略的育成事業助成事業",
-      "prefecture": "静岡県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-07T04:45:00.000Z",
-      "acceptanceEnd": "2026-07-29T03:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc1RMAT"
-    },
-    {
-      "id": "a0WJ200000CDcfNMAT",
-      "title": "【静岡県産業振興財団】令和8年度　事業化推進助成（一般型）２次募集",
-      "institution": "新成長産業戦略的育成事業助成事業",
-      "prefecture": "静岡県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-07T04:45:00.000Z",
-      "acceptanceEnd": "2026-07-29T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcfNMAT"
-    },
     {
       "id": "a0WJ200000CDKZFMA5",
       "title": "令和８年度_グリーンスローモビリティ等導入促進事業",
@@ -1586,22 +1556,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
     },
     {
-      "id": "a0WJ200000CDNDnMAP",
-      "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
-      "institution": "脱炭素成長型経済構造移行推進対策費補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1500000000,
-      "acceptanceStart": "2026-07-28T07:00:00.000Z",
-      "acceptanceEnd": "2026-11-13T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP"
-    },
-    {
       "id": "a0WJ200000CDZXbMAP",
       "title": "【鹿児島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -2056,6 +2010,20 @@
       "acceptanceEnd": "2026-12-25T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUlMAP"
+    },
+    {
+      "id": "a0WJ200000CDdfpMAD",
+      "title": "令和８年度　観光産業の活性化促進事業補助金",
+      "institution": "令和８年度　観光産業の活性化促進事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 25000000,
+      "acceptanceStart": "2026-03-31T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdfpMAD"
     },
     {
       "id": "a0W2x000007CStEEAW",
