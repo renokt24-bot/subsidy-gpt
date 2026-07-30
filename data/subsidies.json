@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-29T22:04:14.116Z",
-  "count": 273,
+  "updatedAt": "2026-07-30T22:10:55.286Z",
+  "count": 276,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDKZFMA5",
-      "title": "令和８年度_グリーンスローモビリティ等導入促進事業",
-      "institution": "二酸化炭素排出抑制対策事業費等補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-10T01:00:00.000Z",
-      "acceptanceEnd": "2026-07-30T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
-    },
     {
       "id": "a0WJ200000CDbHOMA1",
       "title": "令和8年度当初予算　一次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
@@ -797,6 +781,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdfVMAT"
     },
     {
+      "id": "a0WJ200000CDKZFMA5",
+      "title": "令和８年度_グリーンスローモビリティ等導入促進事業",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-10T01:00:00.000Z",
+      "acceptanceEnd": "2026-08-25T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
+    },
+    {
       "id": "a0WJ200000CDaMLMA1",
       "title": "【令和8年度】DX型CO2削減対策実行支援事業",
       "institution": "脱炭素技術等による工場・事業場の省CO2化加速事業（SHIFT事業）",
@@ -1556,6 +1556,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
     },
     {
+      "id": "a0WJ200000CDNDnMAP",
+      "title": "令和８年度_Scope3排出量削減のための企業間連携による省CO2設備投資促進事業",
+      "institution": "脱炭素成長型経済構造移行推進対策費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1500000000,
+      "acceptanceStart": "2026-07-30T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-13T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP"
+    },
+    {
       "id": "a0WJ200000CDZXbMAP",
       "title": "【鹿児島県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -1892,6 +1908,22 @@
       "acceptanceEnd": "2026-12-18T06:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYC7MAP"
+    },
+    {
+      "id": "a0WJ200000CDdicMAD",
+      "title": "【徳島県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "徳島県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-06-01T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-18T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdicMAD"
     },
     {
       "id": "a0WJ200000CDYBxMAP",
@@ -2521,6 +2553,22 @@
         "worklife"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYyhMAH"
+    },
+    {
+      "id": "a0WJ200000CDdMCMA1",
+      "title": "自立・帰還支援雇用創出企業立地補助金（商業施設等復興整備補助事業）（十一次公募）",
+      "institution": "自立・帰還支援雇用創出企業立地補助金",
+      "prefecture": "福島県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-07-30T03:00:00.000Z",
+      "acceptanceEnd": "2027-02-19T08:00:00.000Z",
+      "purposes": [
+        "hire"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdMCMA1"
     },
     {
       "id": "a0WJ200000CDddUMAT",
