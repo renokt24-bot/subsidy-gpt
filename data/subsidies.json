@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-07-31T22:09:33.623Z",
-  "count": 261,
+  "updatedAt": "2026-08-01T22:00:09.520Z",
+  "count": 265,
   "subsidies": [
     {
       "id": "a0WJ200000CDbPBMA1",
@@ -723,6 +723,52 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd46MAD"
+    },
+    {
+      "id": "a0WJ200000CDdoTMAT",
+      "title": "東京都正規雇用転換安定化支援助成金（令和８年度第４回申請受付）",
+      "institution": "東京都正規雇用転換安定化支援助成金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1900000,
+      "acceptanceStart": "2026-07-31T23:30:00.000Z",
+      "acceptanceEnd": "2026-08-31T08:15:00.000Z",
+      "purposes": [
+        "hire"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdoTMAT"
+    },
+    {
+      "id": "a0WJ200000CDdoYMAT",
+      "title": "東京都就職氷河期世代等安定就業サポート助成金（令和８年度第４回申請受付）",
+      "institution": "東京都就職氷河期世代等安定就業サポート助成金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 2400000,
+      "acceptanceStart": "2026-07-31T23:30:00.000Z",
+      "acceptanceEnd": "2026-08-31T08:15:00.000Z",
+      "purposes": [
+        "hire"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdoYMAT"
+    },
+    {
+      "id": "a0WJ200000CDdodMAD",
+      "title": "東京都若者世代職場定着促進助成金（令和８年度第４回申請受付）",
+      "institution": "東京都若者世代職場定着促進助成金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1260000,
+      "acceptanceStart": "2026-07-31T23:30:00.000Z",
+      "acceptanceEnd": "2026-08-31T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdodMAD"
     },
     {
       "id": "a0WJ200000CDdJhMAL",
@@ -1552,6 +1598,20 @@
       "acceptanceEnd": "2026-11-30T14:45:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsRMAX"
+    },
+    {
+      "id": "a0WJ200000CDderMAD",
+      "title": "令和8年度SDS電子化補助金",
+      "institution": "SDS電子化補助金事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1000000,
+      "acceptanceStart": "2026-08-01T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDderMAD"
     },
     {
       "id": "a0WJ200000CDYUmMAP",
