@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-02T21:59:34.794Z",
-  "count": 265,
+  "updatedAt": "2026-08-03T22:11:43.668Z",
+  "count": 267,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDbPBMA1",
-      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（第２次公募）",
-      "institution": "令和８年度二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-23T02:00:00.000Z",
-      "acceptanceEnd": "2026-08-03T04:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1"
-    },
     {
       "id": "a0WJ200000CDaL8MAL",
       "title": "「水素利用拡大に向けた共通基盤強化のための研究開発事業／水電解技術開発ロードマップの改定」の公募",
@@ -216,6 +200,20 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX"
+    },
+    {
+      "id": "a0WJ200000CDdMMMA1",
+      "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（業務改善コース）【令和8年度第2回】",
+      "institution": null,
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 6000000,
+      "acceptanceStart": "2026-08-03T00:00:00.000Z",
+      "acceptanceEnd": "2026-08-14T07:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdMMMA1"
     },
     {
       "id": "a0WJ200000CDZBgMAP",
@@ -771,6 +769,23 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdodMAD"
     },
     {
+      "id": "a0WJ200000CDdlrMAD",
+      "title": "【施行】令和8年度愛知県介護テクノロジー導入支援事業費補助金",
+      "institution": "令和8年度愛知県介護テクノロジー導入支援事業費補助金",
+      "prefecture": "愛知県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-31T00:00:00.000Z",
+      "acceptanceEnd": "2026-08-31T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "worklife"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdlrMAD"
+    },
+    {
       "id": "a0WJ200000CDdJhMAL",
       "title": "GX地域共創補助金2026",
       "institution": "令和8年度 脱炭素電源地域貢献型投資促進事業",
@@ -890,6 +905,20 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5SMAT"
+    },
+    {
+      "id": "a0WJ200000CDdauMAD",
+      "title": "令和８年度 第２回 事業承継支援助成金",
+      "institution": "事業承継・再生支援事業　事業承継支援助成金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-08-03T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-16T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdauMAD"
     },
     {
       "id": "a0WJ200000CDb6JMAT",
