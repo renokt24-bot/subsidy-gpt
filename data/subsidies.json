@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-04T22:22:23.156Z",
-  "count": 271,
+  "updatedAt": "2026-08-05T22:15:32.682Z",
+  "count": 270,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYv8MAH",
-      "title": "「安定供給確保支援基金事業（永久磁石）に関する効果検証調査」の公募",
-      "institution": "P23017_安定供給確保支援基金事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-07T01:00:00.000Z",
-      "acceptanceEnd": "2026-08-05T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYv8MAH"
-    },
     {
       "id": "a0WJ200000CDdgsMAD",
       "title": "令和８年度皮革産業振興対策事業費補助金（団体・グループ）（２次公募）",
