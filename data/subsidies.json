@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-05T22:15:32.682Z",
-  "count": 270,
+  "updatedAt": "2026-08-07T01:01:12.871Z",
+  "count": 274,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdgsMAD",
-      "title": "令和８年度皮革産業振興対策事業費補助金（団体・グループ）（２次公募）",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 33000000,
-      "acceptanceStart": "2026-07-03T01:00:00.000Z",
-      "acceptanceEnd": "2026-08-06T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdgsMAD"
-    },
     {
       "id": "a0WJ200000CDc0OMAT",
       "title": "令和７年度（補正予算）地域共生を目指したデータセンター脱炭素化設備導入支援事業（二次公募）",
@@ -558,6 +544,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdAaMAL"
     },
     {
+      "id": "a0WJ200000CDYDcMAP",
+      "title": "令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+      "institution": "天然ガス利用設備による強靱性向上対策事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-07T00:00:00.000Z",
+      "acceptanceEnd": "2026-08-27T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDcMAP"
+    },
+    {
       "id": "a0WJ200000CDdrNMAT",
       "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（二次公募）",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -846,6 +848,53 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6vMAH"
     },
     {
+      "id": "a0WJ200000CDd5cMAD",
+      "title": "2026年度第2回「新エネルギー等のシーズ発掘・事業化に向けた技術研究開発事業」（新エネ中小・スタートアップ支援制度）の公募",
+      "institution": "P10020_新エネルギー等のシーズ発掘・事業化に向けた技術研究開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-07T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-07T03:00:00.000Z",
+      "purposes": [
+        "sales",
+        "startup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5cMAD"
+    },
+    {
+      "id": "a0WJ200000CDdNKMA1",
+      "title": "令和８年度 エネルギー使用合理化設備導入促進対策費補助金（資源自律経済確立産官学連携加速化事業）【二次公募】",
+      "institution": "エネルギー使用合理化設備導入促進対策費補助金 （資源自律経済確立産官学連携加速化事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 40000000,
+      "acceptanceStart": "2026-08-06T05:00:00.000Z",
+      "acceptanceEnd": "2026-09-07T06:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNKMA1"
+    },
+    {
+      "id": "a0WJ200000CDdKuMAL",
+      "title": "令和８年度国際ルール形成・市場創造型標準化推進事業費補助金（２次公募）",
+      "institution": "令和８年度国際ルール形成・市場創造型標準化推進事業費補助金（２次公募）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-07T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-08T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdKuMAL"
+    },
+    {
       "id": "a0WJ200000CDYUNMA5",
       "title": "令和８年度ゼロエミッション推進に向けた事業転換支援事業（製品開発助成）",
       "institution": null,
@@ -889,6 +938,20 @@
       "acceptanceEnd": "2026-09-11T07:45:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWngMAH"
+    },
+    {
+      "id": "a0WJ200000CDdNtMAL",
+      "title": "令和８年度障害者施設等物価高騰緊急対策事業",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-06T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-11T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL"
     },
     {
       "id": "a0WJ200000CDXuqMAH",
