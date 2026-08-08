@@ -1,41 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-07T21:44:05.812Z",
-  "count": 270,
+  "updatedAt": "2026-08-08T21:34:46.996Z",
+  "count": 268,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYSeMAP",
-      "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(助産所、施術所、歯科技工所　申請用）",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-10T15:00:00.000Z",
-      "acceptanceEnd": "2026-08-07T23:00:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSeMAP"
-    },
-    {
-      "id": "a0WJ200000CDacHMAT",
-      "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所・歯科診療所、訪問看護ステーション　申請用）",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-10T15:00:00.000Z",
-      "acceptanceEnd": "2026-08-07T23:00:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDacHMAT"
-    },
     {
       "id": "a0WJ200000CDdRhMAL",
       "title": "「国内外における土木・建設工事を含む事業実施の適正評価手法の調査業務」の公募",
