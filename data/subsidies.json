@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-09T21:37:42.648Z",
-  "count": 268,
+  "updatedAt": "2026-08-10T21:47:46.376Z",
+  "count": 269,
   "subsidies": [
     {
       "id": "a0WJ200000CDdRhMAL",
@@ -679,6 +679,22 @@
         "worklife"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdlrMAD"
+    },
+    {
+      "id": "a0WJ200000CDXugMAH",
+      "title": "令和８年度ゼロエミ推進製品・サービス等の販路拡大助成事業",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1500000,
+      "acceptanceStart": "2026-08-10T01:00:00.000Z",
+      "acceptanceEnd": "2026-08-31T14:59:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXugMAH"
     },
     {
       "id": "a0WJ200000CDdJhMAL",
