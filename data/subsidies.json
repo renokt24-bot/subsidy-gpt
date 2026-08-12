@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-11T21:54:15.039Z",
-  "count": 269,
+  "updatedAt": "2026-08-12T21:52:17.222Z",
+  "count": 271,
   "subsidies": [
     {
       "id": "a0WJ200000CDdRhMAL",
@@ -711,6 +711,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdJhMAL"
     },
     {
+      "id": "a0WJ200000CDYDcMAP",
+      "title": "令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+      "institution": "天然ガス利用設備による強靱性向上対策事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-12T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-01T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDcMAP"
+    },
+    {
       "id": "a0WJ200000CDctfMAD",
       "title": "令和８年度「蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業」",
       "institution": "蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業",
@@ -1052,7 +1068,7 @@
     {
       "id": "a0WJ200000CDYr0MAH",
       "title": "「賃上げ環境整備補助金2026」",
-      "institution": "【北海道】賃上げ環境整備補助金2026",
+      "institution": "【北海道】賃上げ環境整備補助金2026（2次募集）",
       "prefecture": "北海道",
       "employeeMax": 300,
       "employeeMin": null,
@@ -3707,6 +3723,22 @@
         "hire"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000pSPQMA2"
+    },
+    {
+      "id": "a0WJ200000CDdtMMAT",
+      "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（23次締切）",
+      "institution": "ものづくり補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-04-03T08:00:00.000Z",
+      "acceptanceEnd": "2028-03-31T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtMMAT"
     },
     {
       "id": "a0WJ200000CDOrTMAX",
