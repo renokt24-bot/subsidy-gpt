@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-12T21:52:17.222Z",
-  "count": 271,
+  "updatedAt": "2026-08-13T21:52:07.701Z",
+  "count": 274,
   "subsidies": [
     {
       "id": "a0WJ200000CDdRhMAL",
@@ -2192,6 +2192,39 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7OMAX"
     },
     {
+      "id": "a0WJ200000CDe4iMAD",
+      "title": "令和8年度 中小企業の外国人従業員に対する研修等支援助成金（一般コース）",
+      "institution": "中小企業の外国人従業員に対する研修等支援助成金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 250000,
+      "acceptanceStart": "2026-04-09T05:00:00.000Z",
+      "acceptanceEnd": "2027-01-14T14:59:00.000Z",
+      "purposes": [
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4iMAD"
+    },
+    {
+      "id": "a0WJ200000CDe4nMAD",
+      "title": "令和8年度 中小企業の外国人従業員に対する研修等支援助成金（ウクライナ避難民採用企業コース）",
+      "institution": "中小企業の外国人従業員に対する研修等支援助成金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000,
+      "acceptanceStart": "2026-04-09T05:00:00.000Z",
+      "acceptanceEnd": "2027-01-14T14:59:00.000Z",
+      "purposes": [
+        "hire",
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4nMAD"
+    },
+    {
       "id": "a0WJ200000CDWZ9MAP",
       "title": "令和７年度補正予算　商用車等の電動化促進事業",
       "institution": "脱炭素成長型経済構造移行推進対策費補助金",
@@ -2651,6 +2684,20 @@
       "acceptanceEnd": "2027-02-28T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1VMAX"
+    },
+    {
+      "id": "a0WJ200000CDdm6MAD",
+      "title": "松山港利用促進インセンティブ補助金（荷主向け）",
+      "institution": "松山港利用促進インセンティブ補助金",
+      "prefecture": "愛媛県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-29T00:00:00.000Z",
+      "acceptanceEnd": "2027-02-28T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdm6MAD"
     },
     {
       "id": "a0WJ200000CDYnpMAH",
