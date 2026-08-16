@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-15T21:25:22.743Z",
-  "count": 272,
+  "updatedAt": "2026-08-16T21:25:05.144Z",
+  "count": 274,
   "subsidies": [
     {
       "id": "a0WJ200000CDcFAMA1",
@@ -805,6 +805,20 @@
       "acceptanceEnd": "2026-09-09T03:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdQxMAL"
+    },
+    {
+      "id": "a0WJ200000CDZi6MAH",
+      "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+      "institution": "高度人材インターンシップ受入支援費補助金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 5000,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-09T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
     },
     {
       "id": "a0WJ200000CDWngMAH",
@@ -3051,6 +3065,22 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZz6MAH"
+    },
+    {
+      "id": "a0WJ200000CDdtHMAT",
+      "title": "がんばろう赤磐中小企業省エネ設備更新支援補助金",
+      "institution": "がんばろう赤磐中小企業省エネ設備更新支援補助金",
+      "prefecture": "岡山県",
+      "employeeMax": 900,
+      "employeeMin": null,
+      "employeeLimitText": "900名以下",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtHMAT"
     },
     {
       "id": "a0WJ200000CDYCrMAP",
