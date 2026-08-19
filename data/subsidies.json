@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-18T21:28:53.200Z",
-  "count": 277,
+  "updatedAt": "2026-08-19T21:29:47.858Z",
+  "count": 278,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYirMAH",
-      "title": "2026年度「地域課題解決型起業支援事業」（2次募集）",
-      "institution": "【北海道】2026年度「地域課題解決型起業支援事業」",
-      "prefecture": "北海道",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 2000000,
-      "acceptanceStart": "2026-07-14T00:00:00.000Z",
-      "acceptanceEnd": "2026-08-19T08:00:00.000Z",
-      "purposes": [
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYirMAH"
-    },
     {
       "id": "a0WJ200000CDdNjMAL",
       "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
@@ -799,6 +783,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdQxMAL"
     },
     {
+      "id": "a0WJ200000CDe7xMAD",
+      "title": "令和８年度運輸部門におけるエネルギーの使用合理化・非化石エネルギー転換推進事業費補助金（内航船革新的運航効率化・非化石エネルギー転換推進事業）（三次公募）",
+      "institution": "令和８年度運輸部門におけるエネルギー使用合理化・非化石エネルギー転換推進事業費補助金（内航船革新的運航効率化・非化石エネルギー転換推進事業）（三次公募）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-08-19T05:00:00.000Z",
+      "acceptanceEnd": "2026-09-09T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe7xMAD"
+    },
+    {
       "id": "a0WJ200000CDZi6MAH",
       "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
       "institution": "高度人材インターンシップ受入支援費補助金",
@@ -952,6 +950,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdauMAD"
     },
     {
+      "id": "a0WJ200000CDYmSMAX",
+      "title": "2026年度「中小企業競争力強化促進事業業」（マーケティング支援事業）［2次募集］",
+      "institution": "【北海道】中小企業競争力強化促進事業（マーケティング支援事業）［2次募集］",
+      "prefecture": "北海道",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-08-19T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-16T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYmSMAX"
+    },
+    {
       "id": "a0WJ200000CDb6JMAT",
       "title": "【令和７年度】二酸化炭素排出抑制対策事業費等補助金（水インフラにおける脱炭素化推進事業）［四次公募］",
       "institution": "建築物等のZEB化・省CO2化普及加速事業",
@@ -1079,22 +1093,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcy9MAD"
     },
     {
-      "id": "a0WJ200000CDYr0MAH",
-      "title": "「賃上げ環境整備補助金2026」",
-      "institution": "【北海道】賃上げ環境整備補助金2026（2次募集）",
-      "prefecture": "北海道",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-05-15T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYr0MAH"
-    },
-    {
       "id": "a0WJ200000CDYEIMA5",
       "title": "令和8年度神奈川県小規模事業者デジタル化支援推進事業費補助金",
       "institution": "神奈川県小規模事業者デジタル化支援推進事業費補助金",
@@ -1138,6 +1136,22 @@
       "acceptanceEnd": "2026-09-30T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcQOMA1"
+    },
+    {
+      "id": "a0WJ200000CDYr0MAH",
+      "title": "「賃上げ環境整備補助金2026」",
+      "institution": "【北海道】中小企業競争力強化促進事業（マーケティング支援事業）［2次募集］",
+      "prefecture": "北海道",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-05-15T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [
+        "wageup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYr0MAH"
     },
     {
       "id": "a0WJ200000CDdRHMA1",
