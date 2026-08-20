@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-19T21:29:47.858Z",
+  "updatedAt": "2026-08-20T21:32:24.200Z",
   "count": 278,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdNjMAL",
-      "title": "スタートアップ等を活用した農林水産分野の課題解決事業補助金",
-      "institution": "スタートアップ等を活用した農林水産分野の課題解決事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-14T05:00:00.000Z",
-      "acceptanceEnd": "2026-08-20T15:00:00.000Z",
-      "purposes": [
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNjMAL"
-    },
     {
       "id": "a0WJ200000CDdNyMAL",
       "title": "「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の公募",
@@ -1026,6 +1010,22 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDTzMMAX"
+    },
+    {
+      "id": "a0WJ200000CDdtWMAT",
+      "title": "2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の第２回公募",
+      "institution": "P21002_木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-20T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-29T03:00:00.000Z",
+      "purposes": [
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtWMAT"
     },
     {
       "id": "a0WJ200000CDYcpMAH",
