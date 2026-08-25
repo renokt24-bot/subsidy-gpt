@@ -1,55 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-24T21:34:18.630Z",
-  "count": 285,
+  "updatedAt": "2026-08-25T21:33:15.488Z",
+  "count": 288,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdR2MAL",
-      "title": "【第二回公募】令和8年度災害時に備えた社会的重要インフラへの自衛的な燃料備蓄の推進事業費補助金",
-      "institution": "令和8年度災害時に備えた社会的重要インフラへの自衛的な燃料備蓄の推進事業費補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-04T01:00:00.000Z",
-      "acceptanceEnd": "2026-08-25T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdR2MAL"
-    },
-    {
-      "id": "a0WJ200000CDKZFMA5",
-      "title": "令和８年度_グリーンスローモビリティ等導入促進事業",
-      "institution": "二酸化炭素排出抑制対策事業費等補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-10T01:00:00.000Z",
-      "acceptanceEnd": "2026-08-25T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
-    },
-    {
-      "id": "a0WJ200000CDe5uMAD",
-      "title": "【新産業創造研究機構_兵庫県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）_二次募集",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "兵庫県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-08-14T00:45:00.000Z",
-      "acceptanceEnd": "2026-08-25T14:59:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe5uMAD"
-    },
     {
       "id": "a0WJ200000CDaMLMA1",
       "title": "【令和8年度】DX型CO2削減対策実行支援事業",
@@ -891,6 +845,86 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczgMAD"
     },
     {
+      "id": "a0WJ200000CDYkCMAX",
+      "title": "③太陽光パネルリサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第４次公募及び令和８年度第３次公募】",
+      "institution": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 7297000000,
+      "acceptanceStart": "2026-08-25T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkCMAX"
+    },
+    {
+      "id": "a0WJ200000CDYjRMAX",
+      "title": "②化石資源由来プラスチックを代替する再生可能資源由来素材 の省CO2型製造設備導入事業（バリューチェーン）【令和７年度（補正予算）第４次公募及び令和８年度第３次公募】",
+      "institution": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 7297000000,
+      "acceptanceStart": "2026-08-25T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYjRMAX"
+    },
+    {
+      "id": "a0WJ200000CDYkHMAX",
+      "title": "④リチウム蓄電池リサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第４次公募及び令和８年度第３次公募】",
+      "institution": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 7297000000,
+      "acceptanceStart": "2026-08-25T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkHMAX"
+    },
+    {
+      "id": "a0WJ200000CDYk0MAH",
+      "title": "⑤金属破砕・選別設備導入事業（バリューチェーン）【令和７年度（補正予算）第４次公募及び第８年度第３次公募】",
+      "institution": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 7297000000,
+      "acceptanceStart": "2026-08-25T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYk0MAH"
+    },
+    {
+      "id": "a0WJ200000CDYiwMAH",
+      "title": "①省CO2型プラスチック高度リサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）４次公募及び令和８年度３次公募】",
+      "institution": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 7297000000,
+      "acceptanceStart": "2026-08-25T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYiwMAH"
+    },
+    {
       "id": "a0WJ200000CDcODMA1",
       "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　３次締切分）",
       "institution": "水力発電導入促進支援事業費補助金",
@@ -1061,6 +1095,20 @@
       "acceptanceEnd": "2026-09-30T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe0VMAT"
+    },
+    {
+      "id": "a0WJ200000CDeF3MAL",
+      "title": "令和8年度　ふくいの逸品創造ファンド事業",
+      "institution": null,
+      "prefecture": "福井県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-08-10T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeF3MAL"
     },
     {
       "id": "a0WJ200000CDYr0MAH",
