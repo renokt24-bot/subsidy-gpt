@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-27T00:35:20.943Z",
-  "count": 287,
+  "updatedAt": "2026-08-28T05:09:57.873Z",
+  "count": 292,
   "subsidies": [
     {
       "id": "a0WJ200000CDdrNMAT",
@@ -405,6 +405,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDctfMAD"
     },
     {
+      "id": "a0WJ200000CDeUWMA1",
+      "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
+      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "岡山県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-04T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeUWMA1"
+    },
+    {
       "id": "a0WJ200000CDYh2MAH",
       "title": "2026年度「海外出願支援事業」（2次募集）",
       "institution": null,
@@ -569,6 +585,20 @@
       "acceptanceEnd": "2026-09-09T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
+    },
+    {
+      "id": "a0WJ200000CDe3bMAD",
+      "title": "「特定半導体生産施設整備に係る建設工事の現状及び国内投資促進に向けた課題に関する調査・分析事業」の公募",
+      "institution": "P22008_特定半導体基金事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-28T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-11T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3bMAD"
     },
     {
       "id": "a0WJ200000CDWngMAH",
@@ -782,6 +812,22 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDb6JMAT"
+    },
+    {
+      "id": "a0WJ200000CDe8MMAT",
+      "title": "令和７年度補正　米粉商品開発等支援対策事業　2次募集",
+      "institution": "令和７年度補正　米粉商品開発等支援対策事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 30950204,
+      "acceptanceStart": "2026-08-28T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-18T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe8MMAT"
     },
     {
       "id": "a0WJ200000CDczgMAD",
@@ -1329,6 +1375,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYRHMA5"
     },
     {
+      "id": "a0WJ200000CDeSJMA1",
+      "title": "令和8年度当初予算　二次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
+      "institution": "SP7S-SP8_二酸化炭素排出抑制対策事業費等補助金（民間企業等による再エネの導入及び地域共生加速化事業）のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 60000000,
+      "acceptanceStart": "2026-08-27T06:00:00.000Z",
+      "acceptanceEnd": "2026-10-02T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSJMA1"
+    },
+    {
       "id": "a0WJ200000CDdRmMAL",
       "title": "令和８年度酒類業振興支援事業費補助金（第５期）",
       "institution": "酒類業振興支援事業費補助金",
@@ -1599,6 +1661,22 @@
       "acceptanceEnd": "2026-10-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
+    },
+    {
+      "id": "a0WJ200000CDXkJMAX",
+      "title": "「グリーンイノベーション基金事業／次世代型地熱技術の開発」の公募",
+      "institution": "グリーンイノベーション基金事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-28T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-10T03:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkJMAX"
     },
     {
       "id": "a0WJ200000CDNDnMAP",
