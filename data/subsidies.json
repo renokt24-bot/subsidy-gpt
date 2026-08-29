@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-29T03:07:01.627Z",
-  "count": 286,
+  "updatedAt": "2026-08-29T23:09:28.318Z",
+  "count": 285,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDPbMMAX",
-      "title": "［第十三回］事業再構築補助金_成長分野進出枠、コロナ回復加速枠（交付申請等）",
-      "institution": "事業再構築補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 70000000,
-      "acceptanceStart": "2025-06-30T09:00:00.000Z",
-      "acceptanceEnd": "2026-08-29T14:59:00.000Z",
-      "purposes": [
-        "restructure"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPbMMAX"
-    },
     {
       "id": "a0WJ200000CDdjkMAD",
       "title": "令和8年度地熱発電の資源量調査事業費助成金交付事業_第3回",
