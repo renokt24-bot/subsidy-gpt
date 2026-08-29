@@ -1,109 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-28T05:09:57.873Z",
-  "count": 292,
+  "updatedAt": "2026-08-29T03:07:01.627Z",
+  "count": 286,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdrNMAT",
-      "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（二次公募）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "鳥取県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-07-21T15:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdrNMAT"
-    },
-    {
-      "id": "a0WJ200000CDdr8MAD",
-      "title": "令和８年度 暑さに配慮した職場環境づくり奨励金_第３回",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": 20,
-      "employeeMin": null,
-      "employeeLimitText": "20名以下",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-24T00:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdr8MAD"
-    },
-    {
-      "id": "a0WJ200000CDdPLMA1",
-      "title": "令和８年度カーボンニュートラルコンビナート構築促進補助金",
-      "institution": "カーボンニュートラルコンビナート構築促進補助金",
-      "prefecture": "山口県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 100000000,
-      "acceptanceStart": "2026-07-24T07:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPLMA1"
-    },
-    {
-      "id": "a0WJ200000CDdP1MAL",
-      "title": "令和８年度カーボンニュートラルコンビナート構築促進補助金",
-      "institution": "カーボンニュートラルコンビナート構築促進補助金",
-      "prefecture": "山口県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 50000000,
-      "acceptanceStart": "2026-07-24T07:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdP1MAL"
-    },
-    {
-      "id": "a0WJ200000CDdPGMA1",
-      "title": "令和８年度カーボンニュートラルコンビナート構築促進補助金",
-      "institution": "カーボンニュートラルコンビナート構築促進補助金",
-      "prefecture": "山口県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 500000000,
-      "acceptanceStart": "2026-07-24T07:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPGMA1"
-    },
-    {
-      "id": "a0WJ200000CDdPQMA1",
-      "title": "令和８年度カーボンニュートラルコンビナート構築促進補助金",
-      "institution": "カーボンニュートラルコンビナート構築促進補助金",
-      "prefecture": "山口県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 300000000,
-      "acceptanceStart": "2026-07-24T07:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPQMA1"
-    },
-    {
-      "id": "a0WJ200000CDdPVMA1",
-      "title": "令和８年度カーボンニュートラルコンビナート構築促進補助金",
-      "institution": "カーボンニュートラルコンビナート構築促進補助金",
-      "prefecture": "山口県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 500000000,
-      "acceptanceStart": "2026-07-24T07:00:00.000Z",
-      "acceptanceEnd": "2026-08-28T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPVMA1"
-    },
     {
       "id": "a0WJ200000CDPbMMAX",
       "title": "［第十三回］事業再構築補助金_成長分野進出枠、コロナ回復加速枠（交付申請等）",
@@ -754,6 +654,22 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYmSMAX"
+    },
+    {
+      "id": "a0WJ200000CDeUbMAL",
+      "title": "重要経済安保情報保護活用民間企業等情報保全施設導入支援補助金（令和８年度第２回公募）",
+      "institution": "重要経済安保情報保護活用民間企業等情報保全施設導入支援事業（令和８年度）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-28T02:00:00.000Z",
+      "acceptanceEnd": "2026-09-18T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeUbMAL"
     },
     {
       "id": "a0WJ200000CDdmVMAT",
