@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-08-29T23:09:28.318Z",
-  "count": 285,
+  "updatedAt": "2026-08-30T23:18:57.321Z",
+  "count": 287,
   "subsidies": [
     {
       "id": "a0WJ200000CDdjkMAD",
@@ -1391,6 +1391,39 @@
       "acceptanceEnd": "2026-10-16T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdALMA1"
+    },
+    {
+      "id": "a0WJ200000CDUheMAH",
+      "title": "令和８年度訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+      "institution": "訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 100000,
+      "acceptanceStart": "2026-08-30T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-16T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "worklife"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUheMAH"
+    },
+    {
+      "id": "a0WJ200000CDUhfMAH",
+      "title": "令和８年度訪問介護員等補助者同行支援補助金",
+      "institution": "訪問介護員等補助者同行支援補助金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-30T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-16T14:59:00.000Z",
+      "purposes": [
+        "worklife"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUhfMAH"
     },
     {
       "id": "a0WJ200000CDYaFMAX",
