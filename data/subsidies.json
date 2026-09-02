@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-01T23:11:02.128Z",
-  "count": 334,
+  "updatedAt": "2026-09-02T23:10:58.429Z",
+  "count": 339,
   "subsidies": [
     {
       "id": "a0WJ200000CDZkYMAX",
@@ -372,6 +372,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdqyMAD"
     },
     {
+      "id": "a0W5h00000UcWryEAF",
+      "title": "東京都認定制度を活用した医師少数区域における勤務の推進事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-24T03:00:00.000Z",
+      "acceptanceEnd": "2026-09-15T14:45:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWryEAF"
+    },
+    {
       "id": "a0WJ200000CDdauMAD",
       "title": "令和８年度 第２回 事業承継支援助成金",
       "institution": "事業承継・再生支援事業　事業承継支援助成金",
@@ -490,6 +504,22 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe8MMAT"
+    },
+    {
+      "id": "a0WJ200000CDeXgMAL",
+      "title": "【二次公募】令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
+      "institution": "天然ガス利用設備による強靱性向上対策事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-02T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-24T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeXgMAL"
     },
     {
       "id": "a0WJ200000CDeNwMAL",
@@ -676,6 +706,34 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeQhMAL"
+    },
+    {
+      "id": "a0WJ200000CDe3RMAT",
+      "title": "令和８年度外国意匠出願費用助成事業（第２回）",
+      "institution": "外国意匠出願費用助成事業",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 600000,
+      "acceptanceStart": "2026-09-02T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3RMAT"
+    },
+    {
+      "id": "a0WJ200000CDe3WMAT",
+      "title": "令和８年度外国商標出願費用助成事業（第２回）",
+      "institution": "外国商標出願費用助成事業",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 600000,
+      "acceptanceStart": "2026-09-02T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3WMAT"
     },
     {
       "id": "a0WJ200000CDTzMMAX",
@@ -1351,7 +1409,7 @@
     {
       "id": "a0WJ200000CDWp3MAH",
       "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害⽀援枠（令和６年能登半島地震等）＞10次公募【商⼯会地区】",
-      "institution": "全国商工会連合会_小規模事業者持続化補助金＜一般型＞",
+      "institution": "小規模事業者持続化補助金＜一般型＞",
       "prefecture": "石川県",
       "employeeMax": 20,
       "employeeMin": null,
@@ -4703,6 +4761,20 @@
         "wageup"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6PMAT"
+    },
+    {
+      "id": "a0WJ200000CDeYjMAL",
+      "title": "【令和8年度】高齢者受入体制確保事業",
+      "institution": "【令和8年度】高齢者受入体制確保事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-03-26T15:00:00.000Z",
+      "acceptanceEnd": "2028-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYjMAL"
     },
     {
       "id": "a0WJ200000CDOrTMAX",
