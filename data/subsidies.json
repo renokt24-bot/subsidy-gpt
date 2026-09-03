@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-02T23:10:58.429Z",
-  "count": 339,
+  "updatedAt": "2026-09-03T23:07:44.291Z",
+  "count": 341,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDZkYMAX",
-      "title": "令和８年度TOKYO戦略的イノベーション促進事業",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 80000000,
-      "acceptanceStart": "2026-08-14T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-03T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZkYMAX"
-    },
     {
       "id": "a0WJ200000CDctfMAD",
       "title": "令和８年度「蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業」",
@@ -126,6 +112,39 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNKMA1"
+    },
+    {
+      "id": "a0WJ200000CDaMaMAL",
+      "title": "GX分野のディープテック・スタートアップに対する 実用化研究開発・量産化実証支援事業第7回公募",
+      "institution": "P24011_GX分野のディープテック・スタートアップに対する実用化研究開発・量産化実証支援事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-03T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-08T03:00:00.000Z",
+      "purposes": [
+        "sales",
+        "startup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMaMAL"
+    },
+    {
+      "id": "a0WJ200000CDaMfMAL",
+      "title": "ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業第10回公募",
+      "institution": "P23019_ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-03T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-08T03:00:00.000Z",
+      "purposes": [
+        "startup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMfMAL"
     },
     {
       "id": "a0WJ200000CDdKuMAL",
@@ -520,6 +539,20 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeXgMAL"
+    },
+    {
+      "id": "a0W5h00000UcWrwEAF",
+      "title": "東京都専門医認定支援事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-02T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-24T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWrwEAF"
     },
     {
       "id": "a0WJ200000CDeNwMAL",
