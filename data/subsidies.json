@@ -1,53 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-03T23:07:44.291Z",
-  "count": 341,
+  "updatedAt": "2026-09-04T22:54:56.576Z",
+  "count": 339,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDctfMAD",
-      "title": "令和８年度「蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業」",
-      "institution": "蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 720000000,
-      "acceptanceStart": "2026-08-07T05:00:00.000Z",
-      "acceptanceEnd": "2026-09-04T06:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDctfMAD"
-    },
-    {
-      "id": "a0WJ200000CDeUWMA1",
-      "title": "【岡山県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第２回公募）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "岡山県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-08-16T15:00:00.000Z",
-      "acceptanceEnd": "2026-09-04T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeUWMA1"
-    },
-    {
-      "id": "a0WJ200000CDYh2MAH",
-      "title": "2026年度「海外出願支援事業」（2次募集）",
-      "institution": null,
-      "prefecture": "北海道",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-07-15T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-04T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH"
-    },
     {
       "id": "a0WJ200000CDd5cMAD",
       "title": "2026年度第2回「新エネルギー等のシーズ発掘・事業化に向けた技術研究開発事業」（新エネ中小・スタートアップ支援制度）の公募",
@@ -1669,6 +1625,23 @@
       "acceptanceEnd": "2026-10-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
+    },
+    {
+      "id": "a0WJ200000CDe4JMAT",
+      "title": "令和７年度補正　再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金　系統用蓄電システム等導入支援事業",
+      "institution": "令和７年度補正　再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 4000000000,
+      "acceptanceStart": "2026-09-04T08:00:00.000Z",
+      "acceptanceEnd": "2026-11-04T08:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4JMAT"
     },
     {
       "id": "a0WJ200000CDXkJMAX",
