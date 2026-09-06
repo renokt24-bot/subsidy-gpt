@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-05T22:43:42.090Z",
-  "count": 339,
+  "updatedAt": "2026-09-06T22:49:14.341Z",
+  "count": 340,
   "subsidies": [
     {
       "id": "a0WJ200000CDd5cMAD",
@@ -925,6 +925,20 @@
       "acceptanceEnd": "2026-09-30T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDcQOMA1"
+    },
+    {
+      "id": "a0WJ200000CDW8bMAH",
+      "title": "令和８年度製品改良／規格適合・認証取得支援事業",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 5000000,
+      "acceptanceStart": "2026-09-06T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDW8bMAH"
     },
     {
       "id": "a0WJ200000CDe0VMAT",
