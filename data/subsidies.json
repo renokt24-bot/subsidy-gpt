@@ -1,73 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-07T23:21:58.208Z",
-  "count": 339,
+  "updatedAt": "2026-09-08T23:16:33.789Z",
+  "count": 337,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDaMaMAL",
-      "title": "GX分野のディープテック・スタートアップに対する 実用化研究開発・量産化実証支援事業第7回公募",
-      "institution": "P24011_GX分野のディープテック・スタートアップに対する実用化研究開発・量産化実証支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-03T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-08T03:00:00.000Z",
-      "purposes": [
-        "sales",
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMaMAL"
-    },
-    {
-      "id": "a0WJ200000CDaMfMAL",
-      "title": "ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業第10回公募",
-      "institution": "P23019_ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-03T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-08T03:00:00.000Z",
-      "purposes": [
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMfMAL"
-    },
-    {
-      "id": "a0WJ200000CDdKuMAL",
-      "title": "令和８年度国際ルール形成・市場創造型標準化推進事業費補助金（２次公募）",
-      "institution": "令和８年度国際ルール形成・市場創造型標準化推進事業費補助金（２次公募）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-07T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-08T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdKuMAL"
-    },
-    {
-      "id": "a0WJ200000CDYUNMA5",
-      "title": "令和８年度ゼロエミッション推進に向けた事業転換支援事業（製品開発助成）",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-05-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-09-08T08:00:00.000Z",
-      "purposes": [
-        "sales",
-        "restructure"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUNMA5"
-    },
     {
       "id": "a0WJ200000CDdQxMAL",
       "title": "令和８年度酒類業振興支援事業費補助金（第４期）",
@@ -660,6 +596,23 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3WMAT"
     },
     {
+      "id": "a0WJ200000CDeNDMA1",
+      "title": "「デジタル社会の将来像の実現に向けた技術課題及び社会実装方策に関する調査」の公募",
+      "institution": "P99029_戦略策定調査事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-08T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-28T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeNDMA1"
+    },
+    {
       "id": "a0WJ200000CDTzMMAX",
       "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（19次締切）",
       "institution": "ものづくり補助金",
@@ -848,6 +801,22 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEIMA5"
+    },
+    {
+      "id": "a0WfQ000003Cy0HUAS",
+      "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第５回公募）",
+      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "島根県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-08-31T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Cy0HUAS"
     },
     {
       "id": "a0W2x000004PhCHEA0",
