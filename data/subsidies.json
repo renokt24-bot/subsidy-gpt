@@ -1,51 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-08T23:16:33.789Z",
-  "count": 337,
+  "updatedAt": "2026-09-09T23:06:09.811Z",
+  "count": 340,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdQxMAL",
-      "title": "令和８年度酒類業振興支援事業費補助金（第４期）",
-      "institution": "酒類業振興支援事業費補助金",
-      "prefecture": "北海道 / 青森県 / 岩手県 / 宮城県 / 秋田県 / 山形県 / 福島県 / 茨城県 / 栃木県 / 群馬県 / 埼玉県 / 新潟県 / 長野県 / 岐阜県 / 静岡県 / 愛知県 / 三重県 / 滋賀県 / 京都府 / 大阪府 / 兵庫県 / 奈良県 / 和歌山県 / 鳥取県 / 島根県 / 岡山県 / 広島県 / 山口県 / 徳島県 / 香川県 / 愛媛県 / 高知県 / 福岡県 / 佐賀県 / 長崎県 / 熊本県 / 大分県 / 宮崎県 / 鹿児島県 / 沖縄県 / 千葉県 / 東京都 / 神奈川県 / 山梨県 / 富山県 / 石川県 / 福井県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 15000000,
-      "acceptanceStart": "2026-07-27T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-09T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdQxMAL"
-    },
-    {
-      "id": "a0WJ200000CDe7xMAD",
-      "title": "令和８年度運輸部門におけるエネルギーの使用合理化・非化石エネルギー転換推進事業費補助金（内航船革新的運航効率化・非化石エネルギー転換推進事業）（三次公募）",
-      "institution": "令和８年度運輸部門におけるエネルギー使用合理化・非化石エネルギー転換推進事業費補助金（内航船革新的運航効率化・非化石エネルギー転換推進事業）（三次公募）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 500000000,
-      "acceptanceStart": "2026-08-19T05:00:00.000Z",
-      "acceptanceEnd": "2026-09-09T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe7xMAD"
-    },
-    {
-      "id": "a0WJ200000CDZi6MAH",
-      "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
-      "institution": "高度人材インターンシップ受入支援費補助金",
-      "prefecture": "東京都",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 5000,
-      "acceptanceStart": "2026-08-16T15:00:00.000Z",
-      "acceptanceEnd": "2026-09-09T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
-    },
     {
       "id": "a0WJ200000CDe3bMAD",
       "title": "「特定半導体生産施設整備に係る建設工事の現状及び国内投資促進に向けた課題に関する調査・分析事業」の公募",
@@ -216,6 +174,48 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdqyMAD"
+    },
+    {
+      "id": "a0WJ200000CDeTVMA1",
+      "title": "令和８年度 第２回BCP実践促進助成金 連携型（R82BCPREN）",
+      "institution": "BCP実践促進助成金(連携型）",
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 10000000,
+      "acceptanceStart": "2026-09-09T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-15T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeTVMA1"
+    },
+    {
+      "id": "a0WJ200000CDeTWMA1",
+      "title": "令和８年度 第２回サイバーセキュリティ対策促進助成金（R82CYB）",
+      "institution": "サイバーセキュリティ対策促進助成金",
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 5000000,
+      "acceptanceStart": "2026-09-09T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-15T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeTWMA1"
+    },
+    {
+      "id": "a0WJ200000CDeTUMA1",
+      "title": "令和８年度 第２回BCP実践促進助成金（R82BCP）",
+      "institution": "BCP実践促進助成金",
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 5000000,
+      "acceptanceStart": "2026-09-09T00:00:00.000Z",
+      "acceptanceEnd": "2026-09-15T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeTUMA1"
     },
     {
       "id": "a0W5h00000UcWryEAF",
@@ -819,6 +819,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Cy0HUAS"
     },
     {
+      "id": "a0WfQ000003Dh0bUAC",
+      "title": "【埼玉県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第2回公募）",
+      "institution": "【埼玉県】中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "埼玉県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-09-09T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Dh0bUAC"
+    },
+    {
       "id": "a0W2x000004PhCHEA0",
       "title": "令和8年度 生放送字幕番組普及促進助成金（第３期）",
       "institution": "令和8年度情報通信利用促進支援事業費補助金 （字幕・解説・手話番組等の制作・普及促進）",
@@ -1224,6 +1240,36 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSJMA1"
+    },
+    {
+      "id": "a0WfQ000003DgHRUA0",
+      "title": "【山口県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第2回公募）",
+      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "山口県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-09-03T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-02T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003DgHRUA0"
+    },
+    {
+      "id": "a0WfQ000003BzWHUA0",
+      "title": "【追加募集】神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
+      "institution": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業",
+      "prefecture": "神奈川県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-09T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-02T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003BzWHUA0"
     },
     {
       "id": "a0WJ200000CDdRmMAL",
