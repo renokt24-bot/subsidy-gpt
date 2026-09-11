@@ -1,65 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-10T23:01:50.538Z",
-  "count": 340,
+  "updatedAt": "2026-09-11T23:06:38.745Z",
+  "count": 339,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDe3bMAD",
-      "title": "「特定半導体生産施設整備に係る建設工事の現状及び国内投資促進に向けた課題に関する調査・分析事業」の公募",
-      "institution": "P22008_特定半導体基金事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-28T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-11T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3bMAD"
-    },
-    {
-      "id": "a0WJ200000CDWngMAH",
-      "title": "【令和８年度】経営力強化に向けた創意工夫チャレンジ促進事業(飲食事業者向け経営基盤強化支援（受動喫煙防止対策支援コース）)助成金",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 4000000,
-      "acceptanceStart": "2026-04-13T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-11T07:45:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWngMAH"
-    },
-    {
-      "id": "a0WJ200000CDdNtMAL",
-      "title": "令和８年度障害者施設等物価高騰緊急対策事業",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-06T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-11T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL"
-    },
-    {
-      "id": "a0WJ200000CDXuqMAH",
-      "title": "令和８年度医療機関診療情報サイバーセキュリティ対策支援事業",
-      "institution": "医療機関診療情報サイバーセキュリティ対策支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-04-14T15:00:00.000Z",
-      "acceptanceEnd": "2026-09-11T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXuqMAH"
-    },
     {
       "id": "a0WJ200000CDYlTMAX",
       "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
@@ -594,6 +538,20 @@
       "acceptanceEnd": "2026-09-25T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3WMAT"
+    },
+    {
+      "id": "a0WJ200000CDZi6MAH",
+      "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+      "institution": "高度人材インターンシップ受入支援費補助金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 5000,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-25T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
     },
     {
       "id": "a0WJ200000CDeNDMA1",
@@ -1374,6 +1332,39 @@
         "restructure"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
+    },
+    {
+      "id": "a0WfQ000003BpWvUAK",
+      "title": "【令和8年度】省CO2型システムへの改修支援事業（三次公募）",
+      "institution": "脱炭素技術等による工場・事業場の省CO2化加速事業（SHIFT事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-09-11T03:00:00.000Z",
+      "acceptanceEnd": "2026-10-15T03:00:00.000Z",
+      "purposes": [
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003BpWvUAK"
+    },
+    {
+      "id": "a0WfQ000003BrAXUA0",
+      "title": "【令和8年度】DX型CO2削減対策実行支援事業（二次公募）",
+      "institution": "脱炭素技術等による工場・事業場の省CO2化加速事業（SHIFT事業）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-09-11T03:00:00.000Z",
+      "acceptanceEnd": "2026-10-15T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003BrAXUA0"
     },
     {
       "id": "a0WJ200000CDKZFMA5",
