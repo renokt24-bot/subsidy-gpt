@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-12T22:54:52.188Z",
-  "count": 339,
+  "updatedAt": "2026-09-13T23:02:17.960Z",
+  "count": 340,
   "subsidies": [
     {
       "id": "a0WJ200000CDYlTMAX",
@@ -1472,6 +1472,22 @@
         "restructure"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPyeMAH"
+    },
+    {
+      "id": "a0WfQ000003Bwa1UAC",
+      "title": "令和８年度第２回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
+      "institution": "課題解決型技術開発促進事業（試作品開発・改良助成）",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 20000000,
+      "acceptanceStart": "2026-09-13T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bwa1UAC"
     },
     {
       "id": "a0WJ200000CDczHMAT",
