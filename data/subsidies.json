@@ -1,108 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-13T23:02:17.960Z",
-  "count": 340,
+  "updatedAt": "2026-09-14T23:46:34.691Z",
+  "count": 334,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYlTMAX",
-      "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
-      "institution": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 20000000000,
-      "acceptanceStart": "2026-07-28T06:00:00.000Z",
-      "acceptanceEnd": "2026-09-14T06:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYlTMAX"
-    },
-    {
-      "id": "a0WJ200000CDd5SMAT",
-      "title": "令和８年度 脱炭素成長型経済構造移行推進対策費補助金（自律型資源 循環システム強靱化促進事業）（事前着手届出）【一次公募】",
-      "institution": "脱炭素成長型経済構造移行推進対策費補助金（自律型資源循環システム強靱化促進事業）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-28T06:00:00.000Z",
-      "acceptanceEnd": "2026-09-14T06:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5SMAT"
-    },
-    {
-      "id": "a0WJ200000CDXkTMAX",
-      "title": "令和８年度展示会出展助成事業",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1500000,
-      "acceptanceStart": "2026-08-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-09-14T07:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX"
-    },
-    {
-      "id": "a0WJ200000CDe6iMAD",
-      "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（賃上げ重点コース）【令和8年度第2回】",
-      "institution": "経営力強化に向けた創意工夫チャレンジ促進事業(賃上げ重点コース)",
-      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 6000000,
-      "acceptanceStart": "2026-09-01T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-14T07:00:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6iMAD"
-    },
-    {
-      "id": "a0WJ200000CDYUSMA5",
-      "title": "【埼玉県】令和8年度 企業等における省エネ・再エネ活用設備導入補助金",
-      "institution": "【埼玉県】企業等における省エネ・再エネ活用設備導入補助金",
-      "prefecture": "埼玉県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-16T23:30:00.000Z",
-      "acceptanceEnd": "2026-09-14T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUSMA5"
-    },
-    {
-      "id": "a0WJ200000CDO8eMAH",
-      "title": "交通システムの省CO2 化に向けた設備整備事業（鉄道事業等におけるネットワーク型低炭素化促進事業）（二次公募）",
-      "institution": "二酸化炭素排出抑制対策事業費等補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-17T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-14T08:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDO8eMAH"
-    },
     {
       "id": "a0WJ200000CDdqyMAD",
       "title": "【応募事業者】令和８年度 プラスチック等資源循環システム構築実証事業　＜三次公募＞",
@@ -1334,6 +1235,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
     },
     {
+      "id": "a0WfQ000003EVJxUAO",
+      "title": "令和８年度（秋公募）コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
+      "institution": "コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-09-14T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-13T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003EVJxUAO"
+    },
+    {
       "id": "a0WfQ000003BpWvUAK",
       "title": "【令和8年度】省CO2型システムへの改修支援事業（三次公募）",
       "institution": "脱炭素技術等による工場・事業場の省CO2化加速事業（SHIFT事業）",
@@ -1741,22 +1658,6 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3YMAT"
-    },
-    {
-      "id": "a0WJ200000CDYzQMAX",
-      "title": "令和８年度　産業車両等の脱炭素化促進事業のうち、フォークリフトの燃料電池化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、フォークリフトの燃料電池化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 5500000,
-      "acceptanceStart": "2026-05-21T07:00:00.000Z",
-      "acceptanceEnd": "2026-11-27T09:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzQMAX"
     },
     {
       "id": "a0WJ200000CDY5GMAX",
