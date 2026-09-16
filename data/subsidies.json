@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-15T23:28:11.993Z",
-  "count": 339,
+  "updatedAt": "2026-09-16T23:35:41.929Z",
+  "count": 347,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdauMAD",
-      "title": "令和８年度 第２回 事業承継支援助成金",
-      "institution": "事業承継・再生支援事業　事業承継支援助成金",
-      "prefecture": "東京都",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 2000000,
-      "acceptanceStart": "2026-08-03T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-16T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdauMAD"
-    },
-    {
-      "id": "a0WJ200000CDYmSMAX",
-      "title": "2026年度「中小企業競争力強化促進事業業」（マーケティング支援事業）［2次募集］",
-      "institution": "【北海道】中小企業競争力強化促進事業（マーケティング支援事業）［2次募集］",
-      "prefecture": "北海道",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 2000000,
-      "acceptanceStart": "2026-08-19T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-16T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYmSMAX"
-    },
     {
       "id": "a0WJ200000CDeUbMAL",
       "title": "重要経済安保情報保護活用民間企業等情報保全施設導入支援補助金（令和８年度第２回公募）",
@@ -680,6 +650,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDW8bMAH"
     },
     {
+      "id": "a0WJ200000CDYbIMAX",
+      "title": "令和８年度リスキリング・キャリアデザイン応援事業-R8",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 400000,
+      "acceptanceStart": "2026-09-16T01:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T08:00:00.000Z",
+      "purposes": [
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbIMAX"
+    },
+    {
       "id": "a0WJ200000CDe0VMAT",
       "title": "令和８年度ＡＩ×データ知財取得支援助成事業【第２回申請】",
       "institution": "AI×データ知財取得支援助成事業",
@@ -1131,6 +1117,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003IBL3UAO"
     },
     {
+      "id": "a0WJ200000CDVu7MAH",
+      "title": "令和７年度勤務環境改善体制医師派遣等推進事業",
+      "institution": "勤務環境改善医師派遣等推進事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-10-29T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-02T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVu7MAH"
+    },
+    {
       "id": "a0WfQ000003I7irUAC",
       "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）２次公募",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -1316,9 +1316,23 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
     },
     {
+      "id": "a0WJ200000CDeYyMAL",
+      "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害支援枠（令和8年熊本地震）＞1次公募【商⼯会地区】",
+      "institution": "小規模事業者持続化補助金＜一般型 災害支援枠＞",
+      "prefecture": "熊本県",
+      "employeeMax": 20,
+      "employeeMin": null,
+      "employeeLimitText": "20名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-09-16T08:00:00.000Z",
+      "acceptanceEnd": "2026-10-16T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeYyMAL"
+    },
+    {
       "id": "a0WJ200000CDWp3MAH",
       "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害⽀援枠（令和６年能登半島地震等）＞10次公募【商⼯会地区】",
-      "institution": "小規模事業者持続化補助金＜一般型＞",
+      "institution": "小規模事業者持続化補助金＜一般型 災害支援枠＞",
       "prefecture": "石川県",
       "employeeMax": 20,
       "employeeMin": null,
@@ -1328,6 +1342,20 @@
       "acceptanceEnd": "2026-10-16T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWp3MAH"
+    },
+    {
+      "id": "a0WJ200000CDeToMAL",
+      "title": "小規模事業者持続化補助金＜一般型 災害支援枠（令和８年熊本地震）＞１次公募【商工会議所地区】",
+      "institution": "小規模事業者持続化補助金＜一般型 災害支援枠＞",
+      "prefecture": "熊本県",
+      "employeeMax": 20,
+      "employeeMin": null,
+      "employeeLimitText": "20名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-09-16T08:00:00.000Z",
+      "acceptanceEnd": "2026-10-16T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeToMAL"
     },
     {
       "id": "a0WJ200000CDdALMA1",
@@ -1577,6 +1605,22 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY4mMAH"
+    },
+    {
+      "id": "a0WJ200000CDXjwMAH",
+      "title": "【福井県】令和８年度企業の太陽光・蓄電池設備導入促進事業補助金",
+      "institution": "【福井県】企業の太陽光・蓄電池設備導入促進事業補助金",
+      "prefecture": "福井県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 11300000,
+      "acceptanceStart": "2026-04-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-31T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjwMAH"
     },
     {
       "id": "a0WJ200000CDYbNMAX",
@@ -2142,6 +2186,36 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddXMAT"
+    },
+    {
+      "id": "a0WJ200000CDXjyMAH",
+      "title": "【福井県】電気自動車用充電インフラ整備促進事業補助金",
+      "institution": "【福井県】電気自動車用充電インフラ整備促進事業補助金",
+      "prefecture": "福井県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1500000,
+      "acceptanceStart": "2026-04-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjyMAH"
+    },
+    {
+      "id": "a0WJ200000CDXjxMAH",
+      "title": "【福井県】令和８年度 Ｖ２Ｈ充放電設備設置支援事業補助金",
+      "institution": "【福井県】Ｖ２Ｈ充放電設備設置支援事業補助金",
+      "prefecture": "福井県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 100000,
+      "acceptanceStart": "2026-04-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjxMAH"
     },
     {
       "id": "a0WJ200000CDYUlMAP",
@@ -3323,6 +3397,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtHMAT"
     },
     {
+      "id": "a0WfQ000003CWvFUAW",
+      "title": "燃料電池フォークリフト実装支援事業助成金",
+      "institution": "燃料電池フォークリフト実装支援事業助成金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-15T08:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CWvFUAW"
+    },
+    {
       "id": "a0WJ200000CDYCrMAP",
       "title": "【内閣府】地方創生に資する利子補給制度（金融支援）",
       "institution": null,
@@ -3699,6 +3787,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSKMA5"
     },
     {
+      "id": "a0WJ200000CDXjzMAH",
+      "title": "【福井県】次世代自動車普及促進事業補助金",
+      "institution": "【福井県】次世代自動車普及促進事業補助金",
+      "prefecture": "福井県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000,
+      "acceptanceStart": "2026-04-16T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjzMAH"
+    },
+    {
       "id": "a0WJ200000CDY1pMAH",
       "title": "【長野県茅野市】中小企業人材育成等支援補助金",
       "institution": "【長野県茅野市】中小企業の人材育成等に対する補助金",
@@ -3935,6 +4037,20 @@
       "acceptanceEnd": "2027-05-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000005iqyXEAQ"
+    },
+    {
+      "id": "a0WfQ000003DRDZUA4",
+      "title": "令和８年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
+      "institution": "令和８年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-16T00:00:00.000Z",
+      "acceptanceEnd": "2027-05-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003DRDZUA4"
     },
     {
       "id": "a0WJ200000CDaTOMA1",
