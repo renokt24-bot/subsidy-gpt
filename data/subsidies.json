@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-23T23:30:16.529Z",
+  "updatedAt": "2026-09-24T23:48:36.465Z",
   "count": 350,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeXgMAL",
-      "title": "【二次公募】令和８年度　天然ガス利用設備による強靱性向上対策事業費補助金",
-      "institution": "天然ガス利用設備による強靱性向上対策事業費補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-02T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-24T14:59:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeXgMAL"
-    },
-    {
-      "id": "a0W5h00000UcWrwEAF",
-      "title": "東京都専門医認定支援事業補助金",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-02T00:00:00.000Z",
-      "acceptanceEnd": "2026-09-24T15:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWrwEAF"
-    },
     {
       "id": "a0WJ200000CDeNwMAL",
       "title": "令和7年度_産油国石油精製技術等対策事業費補助金（石油天然ガス権益・安定供給の確保に向けた資源国との関係強化支援事業のうち産油・産ガス国産業協力等事業に係るもの）_第5回公募",
@@ -1029,6 +999,23 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdRmMAL"
     },
     {
+      "id": "a0WJ200000CDeZLMA1",
+      "title": "「カーボンリサイクル・火力発電の脱炭素化技術等国際協力事業／カーボンマネジメントに係る国際連携事業／カーボンリサイクル関連技術及び脱炭素化技術等の海外展開可能性の調査」の公募について",
+      "institution": "P22001_カーボンリサイクル・火力発電の脱炭素化技術等国際協力事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-24T01:00:00.000Z",
+      "acceptanceEnd": "2026-10-07T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeZLMA1"
+    },
+    {
       "id": "a0WJ200000CDaooMAD",
       "title": "「海外研究者招へい事業（STeP JAPAN）」2027年度海外招へい研究者受入機関の募集",
       "institution": "P01035_海外研究者招へい事業（ＳＴｅＰ　ＪＡＰＡＮ）",
@@ -1406,6 +1393,22 @@
       "acceptanceEnd": "2026-10-22T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYaFMAX"
+    },
+    {
+      "id": "a0WJ200000CDYtoMAH",
+      "title": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）第３次募集",
+      "institution": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "香川県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-09-24T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-23T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYtoMAH"
     },
     {
       "id": "a0WfQ000003I7R7UAK",
