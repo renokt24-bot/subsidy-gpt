@@ -1,58 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-27T23:42:55.573Z",
-  "count": 339,
+  "updatedAt": "2026-09-29T00:53:32.798Z",
+  "count": 341,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeNDMA1",
-      "title": "「デジタル社会の将来像の実現に向けた技術課題及び社会実装方策に関する調査」の公募",
-      "institution": "P99029_戦略策定調査事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-08T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-28T03:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeNDMA1"
-    },
-    {
-      "id": "a0WJ200000CDTzMMAX",
-      "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（19次締切）",
-      "institution": "ものづくり補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 40000000,
-      "acceptanceStart": "2025-02-14T08:00:00.000Z",
-      "acceptanceEnd": "2026-09-28T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDTzMMAX"
-    },
-    {
-      "id": "a0WJ200000CDe3zMAD",
-      "title": "【令和８年度・第４回】INPIT外国出願補助金",
-      "institution": "INPIT外国出願補助金",
-      "prefecture": "全国",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-09-07T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-28T08:00:00.000Z",
-      "purposes": [
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe3zMAD"
-    },
     {
       "id": "a0WJ200000CDdtWMAT",
       "title": "2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の第２回公募",
@@ -149,22 +100,6 @@
         "startup"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdmLMAT"
-    },
-    {
-      "id": "a0WJ200000CDeY5MAL",
-      "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業／普及促進事業／グローバルな液化水素サプライチェーン構築に向けた我が国技術の適用可能性等調査」の公募",
-      "institution": "P93050_脱炭素化・エネルギー転換に資する我が国技術の国際実証事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-18T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-30T03:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeY5MAL"
     },
     {
       "id": "a0WJ200000CDcy9MAD",
@@ -580,6 +515,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdRHMA1"
     },
     {
+      "id": "a0WJ200000CDZi6MAH",
+      "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+      "institution": "高度人材インターンシップ受入支援費補助金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 5000,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-09-30T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
+    },
+    {
       "id": "a0WJ200000CDWQzMAP",
       "title": "令和５年度病院勤務者勤務環境改善事業・救急医療体制強化事業【仕入控除税額報告】",
       "institution": "病院勤務者勤務環境改善事業・救急医療体制強化事業",
@@ -697,6 +646,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeSJMA1"
     },
     {
+      "id": "a0WJ200000CDeY5MAL",
+      "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業／普及促進事業／グローバルな液化水素サプライチェーン構築に向けた我が国技術の適用可能性等調査」の公募",
+      "institution": "P93050_脱炭素化・エネルギー転換に資する我が国技術の国際実証事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-18T01:00:00.000Z",
+      "acceptanceEnd": "2026-10-02T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeY5MAL"
+    },
+    {
       "id": "a0WfQ000003DgHRUA0",
       "title": "【山口県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第2回公募）",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -739,6 +704,22 @@
       "acceptanceEnd": "2026-10-02T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDW2EMAX"
+    },
+    {
+      "id": "a0WfQ000003cYWnUAM",
+      "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
+      "institution": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 150000000,
+      "acceptanceStart": "2026-09-27T15:00:00.000Z",
+      "acceptanceEnd": "2026-10-05T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cYWnUAM"
     },
     {
       "id": "a0WfQ000003I7irUAC",
@@ -1215,6 +1196,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdl2MAD"
     },
     {
+      "id": "a0WfQ000003EZsDUAW",
+      "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　追加公募分）",
+      "institution": "水力発電導入促進支援事業費補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 20000000,
+      "acceptanceStart": "2026-09-28T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-28T08:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003EZsDUAW"
+    },
+    {
       "id": "a0WJ200000CDPyeMAH",
       "title": "［第十三回］事業再構築補助金_GX進出類型（交付申請等）",
       "institution": "事業再構築補助金",
@@ -1245,6 +1242,20 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003a9flUAA"
+    },
+    {
+      "id": "a0WJ200000CDYh2MAH",
+      "title": "2026年度「海外出願支援事業」（3次募集）",
+      "institution": null,
+      "prefecture": "北海道",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-09-29T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH"
     },
     {
       "id": "a0WfQ000003Bwa1UAC",
@@ -2509,6 +2520,23 @@
       "acceptanceEnd": "2027-01-29T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDCMA5"
+    },
+    {
+      "id": "a0WfQ000003ZH5uUAG",
+      "title": "令和８年度第２回中小企業デジタル導入促進補助事業",
+      "institution": "中小企業デジタル導入促進補助事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1500000,
+      "acceptanceStart": "2026-09-28T05:00:00.000Z",
+      "acceptanceEnd": "2027-01-29T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ZH5uUAG"
     },
     {
       "id": "a0WJ200000CDMSsMAP",
