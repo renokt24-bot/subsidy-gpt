@@ -1,41 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-09-29T00:53:32.798Z",
+  "updatedAt": "2026-09-30T00:12:56.258Z",
   "count": 341,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdtWMAT",
-      "title": "2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の第２回公募",
-      "institution": "P21002_木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-20T01:00:00.000Z",
-      "acceptanceEnd": "2026-09-29T03:00:00.000Z",
-      "purposes": [
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtWMAT"
-    },
-    {
-      "id": "a0WJ200000CDYcpMAH",
-      "title": "令和８年度　水力発電導入促進支援事業費補助金（既存設備有効活用強化支援事業）公募",
-      "institution": "水力発電導入促進支援事業費補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1474350000,
-      "acceptanceStart": "2026-04-27T04:30:00.000Z",
-      "acceptanceEnd": "2026-09-29T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYcpMAH"
-    },
     {
       "id": "a0WJ200000CDdgEMAT",
       "title": "東京都商店街デジタル化推進事業費補助金",
@@ -783,6 +751,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaooMAD"
     },
     {
+      "id": "a0WfQ000003JPFVUA4",
+      "title": "令和８年度第２回　創業助成事業",
+      "institution": "創業助成事業",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 4000000,
+      "acceptanceStart": "2026-09-29T01:00:00.000Z",
+      "acceptanceEnd": "2026-10-08T15:00:00.000Z",
+      "purposes": [
+        "startup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003JPFVUA4"
+    },
+    {
       "id": "a0WJ200000CDeS9MAL",
       "title": "令和７年度（補正予算）地域共生を目指したデータセンター脱炭素化設備導入支援事業（三次公募）",
       "institution": "二酸化炭素排出抑制対策事業費等補助金",
@@ -1517,6 +1501,20 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkJMAX"
+    },
+    {
+      "id": "a0WJ200000CDdjfMAD",
+      "title": "[３次公募]中小企業成長加速化補助金",
+      "institution": "中小企業成長加速化補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 500000000,
+      "acceptanceStart": "2026-09-29T04:00:00.000Z",
+      "acceptanceEnd": "2026-11-12T06:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdjfMAD"
     },
     {
       "id": "a0WfQ000003I7vlUAC",
