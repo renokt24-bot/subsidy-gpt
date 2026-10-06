@@ -1,41 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-04T23:53:36.365Z",
-  "count": 294,
+  "updatedAt": "2026-10-06T01:42:07.906Z",
+  "count": 293,
   "subsidies": [
-    {
-      "id": "a0WfQ000003cYWnUAM",
-      "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
-      "institution": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 150000000,
-      "acceptanceStart": "2026-09-27T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-05T03:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cYWnUAM"
-    },
-    {
-      "id": "a0WfQ000003I7irUAC",
-      "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）２次公募",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "青森県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-09-07T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-05T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003I7irUAC"
-    },
     {
       "id": "a0WJ200000CDdRmMAL",
       "title": "令和８年度酒類業振興支援事業費補助金（第５期）",
@@ -1952,6 +1920,23 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYBxMAP"
+    },
+    {
+      "id": "a0WfQ000003cAFxUAM",
+      "title": "交通システムの省CO2 化に向けた設備整備事業（鉄道事業等におけるネットワーク型低炭素化促進事業）（三次公募）",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-05T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-23T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cAFxUAM"
     },
     {
       "id": "a0WJ200000CDddZMAT",
@@ -4398,7 +4383,7 @@
     {
       "id": "a0WJ2000000qhOQMAY",
       "title": "［第十二回］事業再構築補助金（交付申請等）",
-      "institution": "事業再構築補助金",
+      "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
