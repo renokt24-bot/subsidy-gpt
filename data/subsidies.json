@@ -1,115 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-09T01:05:13.452Z",
-  "count": 294,
+  "updatedAt": "2026-10-10T00:38:14.363Z",
+  "count": 288,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeS9MAL",
-      "title": "令和７年度（補正予算）地域共生を目指したデータセンター脱炭素化設備導入支援事業（三次公募）",
-      "institution": "二酸化炭素排出抑制対策事業費等補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-01T05:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T03:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeS9MAL"
-    },
-    {
-      "id": "a0WJ200000CDdnJMAT",
-      "title": "令和７年度(補正予算) ゼロエミッション船等の建造促進事業 2次公募",
-      "institution": "脱炭素成長型経済構造移行推進対策費補助金（ゼロエミッション船等の建造促進事業）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-08-21T05:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdnJMAT"
-    },
-    {
-      "id": "a0WJ200000CDeXvMAL",
-      "title": "【福岡県3次】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "福岡県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-09-18T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeXvMAL"
-    },
-    {
-      "id": "a0WJ200000CDeQmMAL",
-      "title": "伝統的工芸品産業支援補助金（令和8年度第2回災害復興事業）",
-      "institution": "伝統的工芸品産業支援補助金",
-      "prefecture": "新潟県 / 福井県 / 富山県 / 石川県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 10000000,
-      "acceptanceStart": "2026-08-28T05:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeQmMAL"
-    },
-    {
-      "id": "a0WJ200000CDdN0MAL",
-      "title": "令和８年度 非石油由来製品等開発支援事業",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 20000000,
-      "acceptanceStart": "2026-07-31T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdN0MAL"
-    },
-    {
-      "id": "a0WfQ000003CVHdUAO",
-      "title": "令和８年度　ＺＥＢ実証事業（三次公募）",
-      "institution": "住宅・建築物需給一体型等省エネルギー投資促進事業費",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 700000000,
-      "acceptanceStart": "2026-09-18T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CVHdUAO"
-    },
-    {
-      "id": "a0WJ200000CDe6IMAT",
-      "title": "【島根】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-      "institution": "業務改善助成金",
-      "prefecture": "島根県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 6000000,
-      "acceptanceStart": "2026-08-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-09T14:59:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6IMAT"
-    },
     {
       "id": "a0WJ200000CDe6PMAT",
       "title": "【広島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
@@ -141,6 +35,20 @@
         "restructure"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
+    },
+    {
+      "id": "a0W5h00000UcWrwEAF",
+      "title": "東京都専門医認定支援事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-02T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-12T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcWrwEAF"
     },
     {
       "id": "a0WfQ000003EVJxUAO",
@@ -4352,7 +4260,7 @@
     {
       "id": "a0WJ2000000qhOQMAY",
       "title": "［第十二回］事業再構築補助金（交付申請等）",
-      "institution": "事業再構築補助金",
+      "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
