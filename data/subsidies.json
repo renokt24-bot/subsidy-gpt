@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-10T00:38:14.363Z",
+  "updatedAt": "2026-10-11T00:10:08.079Z",
   "count": 288,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDe6PMAT",
-      "title": "【広島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-      "institution": "業務改善助成金",
-      "prefecture": "広島県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 6000000,
-      "acceptanceStart": "2026-08-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-10T14:59:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6PMAT"
-    },
     {
       "id": "a0W2x000007Cos5EAC",
       "title": "［第六回以降］事業再構築補助金（共同申請者）",
@@ -164,6 +148,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDduiMAD"
     },
     {
+      "id": "a0WJ200000CDKZFMA5",
+      "title": "令和８年度_グリーンスローモビリティ等導入促進事業（二次公募）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-09-07T01:00:00.000Z",
+      "acceptanceEnd": "2026-10-16T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
+    },
+    {
       "id": "a0WJ200000CDeZuMAL",
       "title": "令和８年度データセンターのゼロエミッション化・レジリエンス強化促進事業（二次公募）",
       "institution": "二酸化炭素排出抑制対策事業費等補助金",
@@ -176,22 +176,6 @@
       "acceptanceEnd": "2026-10-16T03:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeZuMAL"
-    },
-    {
-      "id": "a0WJ200000CDKZFMA5",
-      "title": "令和８年度_グリーンスローモビリティ等導入促進事業（二次公募）",
-      "institution": "二酸化炭素排出抑制対策事業費等補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-07T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-16T03:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5"
     },
     {
       "id": "a0WJ200000CDeTZMA1",
@@ -2101,7 +2085,7 @@
     {
       "id": "a0WJ200000CDHQZMA5",
       "title": "在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金",
-      "institution": "在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金",
+      "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
@@ -2678,7 +2662,7 @@
     {
       "id": "a0WJ200000CDK76MAH",
       "title": "東京都民間事業者に係る低公害・低燃費車導入促進補助金（補助金申請）",
-      "institution": "東京都民間所業者に係る低公害・低燃費車導入促進補助金",
+      "institution": null,
       "prefecture": "東京都",
       "employeeMax": null,
       "employeeMin": null,
@@ -3475,6 +3459,37 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXqMMAX"
     },
     {
+      "id": "a0WJ20000087jeOMAQ",
+      "title": "令和６年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 141000,
+      "acceptanceStart": "2024-09-27T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "it"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000087jeOMAQ"
+    },
+    {
+      "id": "a0WJ200000CDK7KMAX",
+      "title": "東京都環境保全資金融資あっせん",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-03-31T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7KMAX"
+    },
+    {
       "id": "a0WJ200000CDYSUMA5",
       "title": "廃止石油坑井封鎖事業費補助金（令和8年度：関東東北産業保安監督部東北支部）",
       "institution": "廃止石油坑井封鎖事業費補助金",
@@ -3669,23 +3684,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW4MAP"
     },
     {
-      "id": "a0WJ20000087jeOMAQ",
-      "title": "令和６年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 141000,
-      "acceptanceStart": "2024-09-27T00:00:00.000Z",
-      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000087jeOMAQ"
-    },
-    {
       "id": "a0WJ200000CDRArMAP",
       "title": "令和７年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
       "institution": null,
@@ -3805,7 +3803,7 @@
     {
       "id": "a0W2x000005iqyXEAQ",
       "title": "EMPの普及促進に係る補助金（新）",
-      "institution": "EMPの普及促進に係る補助金",
+      "institution": null,
       "prefecture": "東京都",
       "employeeMax": null,
       "employeeMin": null,
@@ -3967,7 +3965,7 @@
     {
       "id": "a0W5h00000UaiqSEAR",
       "title": "事業再構築補助金（共同申請_リース会社）",
-      "institution": "事業再構築補助金",
+      "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
@@ -4140,7 +4138,7 @@
     {
       "id": "a0WJ200000CDJWIMA5",
       "title": "申請練習用補助金【補助金の支払いはありません】",
-      "institution": "申請練習用制度【補助金の支払いはありません】",
+      "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
