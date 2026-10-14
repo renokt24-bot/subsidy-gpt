@@ -1,41 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-13T02:29:08.513Z",
-  "count": 290,
+  "updatedAt": "2026-10-14T00:12:18.323Z",
+  "count": 291,
   "subsidies": [
-    {
-      "id": "a0WfQ000003EVJxUAO",
-      "title": "令和８年度（秋公募）コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
-      "institution": "コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 500000000,
-      "acceptanceStart": "2026-09-14T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-13T08:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003EVJxUAO"
-    },
-    {
-      "id": "a0WJ200000CDdugMAD",
-      "title": "【秋田】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-      "institution": "業務改善助成金",
-      "prefecture": "秋田県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 6000000,
-      "acceptanceStart": "2026-08-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-13T14:59:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdugMAD"
-    },
     {
       "id": "a0WJ200000CDXkTMAX",
       "title": "令和８年度展示会出展助成事業",
@@ -1675,6 +1643,20 @@
         "training"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXvUMAX"
+    },
+    {
+      "id": "a0WfQ000003ot1BUAQ",
+      "title": "東京都商店街防災力向上緊急支援事業",
+      "institution": "商店街防災力向上緊急支援事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 300000,
+      "acceptanceStart": "2026-06-14T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ot1BUAQ"
     },
     {
       "id": "a0WJ200000CDYR2MAP",
@@ -3859,6 +3841,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003MWE2UAO"
     },
     {
+      "id": "a0WfQ000003l6UrUAI",
+      "title": "令和８年度　医療分野における業務効率化・職場環境改善支援事業",
+      "institution": "医療分野における業務効率化・職場環境改善支援事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-08T00:00:00.000Z",
+      "acceptanceEnd": "2027-05-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003l6UrUAI"
+    },
+    {
       "id": "a0WJ200000CDaTOMA1",
       "title": "【令和8年度】地域医療確保に係る緊急・臨時支援事業支援金及び急性期医療臨時支援事業支援金",
       "institution": null,
@@ -3901,6 +3897,22 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYimMAH"
+    },
+    {
+      "id": "a0WfQ000003n4bqUAA",
+      "title": "令和８年度臨床研修費等補助金（歯科医師）",
+      "institution": "臨床研修費等補助金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-08T15:00:00.000Z",
+      "acceptanceEnd": "2027-07-31T14:59:00.000Z",
+      "purposes": [
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003n4bqUAA"
     },
     {
       "id": "a0WJ2000000pSPQMA2",
