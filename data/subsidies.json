@@ -1,25 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-18T22:54:38.363Z",
-  "count": 279,
+  "updatedAt": "2026-10-20T00:10:04.516Z",
+  "count": 281,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeY0MAL",
-      "title": "「水素社会モデル構築高度化技術開発・実証事業」の第2回公募",
-      "institution": "P26004_水素社会モデル構築高度化技術開発・実証事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-18T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-19T03:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeY0MAL"
-    },
     {
       "id": "a0WJ200000CDeOLMA1",
       "title": "「地盤・海象・気象等の調査・観測技術の高度化・高効率化に関する研究開発」　の公募",
@@ -95,6 +79,20 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003I7R7UAK"
+    },
+    {
+      "id": "a0WfQ000003qOVxUAM",
+      "title": "令和８年度 暑さに配慮した職場環境づくり奨励金_第４回",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": 20,
+      "employeeMin": null,
+      "employeeLimitText": "20名以下",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-19T00:00:00.000Z",
+      "acceptanceEnd": "2026-10-23T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qOVxUAM"
     },
     {
       "id": "a0WJ200000CDe6aMAD",
@@ -1113,6 +1111,23 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ENsfUAG"
     },
     {
+      "id": "a0WJ200000CDe82MAD",
+      "title": "「太陽光発電導入拡大等技術開発事業」の第3回公募",
+      "institution": "P25011_太陽光発電導入拡大等技術開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-19T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-25T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD"
+    },
+    {
       "id": "a0WJ200000CDY5GMAX",
       "title": "令和７年度補正 ディマンドリスポンスの拡大に向けたIoT化推進事業",
       "institution": "令和７年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金」ディマンドリスポンスの拡大に向けたIoT化推進事業",
@@ -1371,6 +1386,20 @@
         "wageup"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdueMAD"
+    },
+    {
+      "id": "a0WJ200000CDdNtMAL",
+      "title": "令和８年度障害者施設等物価高騰緊急対策事業",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-06T00:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNtMAL"
     },
     {
       "id": "a0WJ200000CDXvUMAX",
@@ -2551,7 +2580,7 @@
     {
       "id": "a0WJ200000CDL8JMAX",
       "title": "令和６年度補正予算　商用車等の電動化促進事業",
-      "institution": null,
+      "institution": "脱炭素成長型経済構造移行推進対策費補助金",
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
