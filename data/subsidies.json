@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-21T23:56:23.219Z",
-  "count": 281,
+  "updatedAt": "2026-10-22T23:55:44.648Z",
+  "count": 285,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeOLMA1",
-      "title": "「地盤・海象・気象等の調査・観測技術の高度化・高効率化に関する研究開発」　の公募",
-      "institution": "P07015_風力発電等導入支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-18T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-22T03:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeOLMA1"
-    },
-    {
-      "id": "a0WJ200000CDYaFMAX",
-      "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（業務用建築物ストックの省CO2改修調査支援事業（令和７年度補正予算二次公募・令和８年度一次公募））",
-      "institution": "建築物等のZEB化・省CO2化普及加速事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1000000,
-      "acceptanceStart": "2026-05-01T06:00:00.000Z",
-      "acceptanceEnd": "2026-10-22T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYaFMAX"
-    },
     {
       "id": "a0WfQ000003GpG9UAK",
       "title": "令和７年度補正グローバルサウス未来志向型共創等事業費補助金（小規模実証・ＦＳ事業：二次公募）（ＦＳ・小規模実証事業実施事業者の募集（補助））",
@@ -605,20 +575,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXjwMAH"
     },
     {
-      "id": "a0WJ200000CDYbNMAX",
-      "title": "エイジフレンドリー補助金",
-      "institution": "エイジフレンドリー補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1000000,
-      "acceptanceStart": "2026-05-20T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-31T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
-    },
-    {
       "id": "a0WJ200000CDe6RMAT",
       "title": "【徳島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
       "institution": "業務改善助成金",
@@ -936,6 +892,38 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtCMAT"
     },
     {
+      "id": "a0WJ200000CDbPBMA1",
+      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（第２次公募）",
+      "institution": "令和８年度二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-22T02:00:00.000Z",
+      "acceptanceEnd": "2026-11-13T04:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1"
+    },
+    {
+      "id": "a0WfQ000003qYNFUA2",
+      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（３次公募）",
+      "institution": "令和８年度二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-22T02:00:00.000Z",
+      "acceptanceEnd": "2026-11-13T04:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qYNFUA2"
+    },
+    {
       "id": "a0WfQ000003I7vlUAC",
       "title": "【岩手県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）３次公募",
       "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -1111,6 +1099,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ENsfUAG"
     },
     {
+      "id": "a0WJ200000CDYbNMAX",
+      "title": "エイジフレンドリー補助金",
+      "institution": "エイジフレンドリー補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1000000,
+      "acceptanceStart": "2026-05-20T00:00:00.000Z",
+      "acceptanceEnd": "2026-11-20T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX"
+    },
+    {
       "id": "a0WJ200000CDe82MAD",
       "title": "「太陽光発電導入拡大等技術開発事業」の第3回公募",
       "institution": "P25011_太陽光発電導入拡大等技術開発事業",
@@ -1126,6 +1128,34 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD"
+    },
+    {
+      "id": "a0WfQ000003mzyjUAA",
+      "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-22T03:00:00.000Z",
+      "acceptanceEnd": "2026-11-27T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003mzyjUAA"
+    },
+    {
+      "id": "a0WfQ000003myubUAA",
+      "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+      "institution": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-22T03:00:00.000Z",
+      "acceptanceEnd": "2026-11-27T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003myubUAA"
     },
     {
       "id": "a0WJ200000CDY5GMAX",
@@ -3629,6 +3659,34 @@
       "acceptanceEnd": "2027-03-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2OMAX"
+    },
+    {
+      "id": "a0WfQ000003poQrUAI",
+      "title": "令和８年度　地域医療勤務環境改善体制整備事業",
+      "institution": "東京都地域医療勤務環境改善体制整備事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-22T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003poQrUAI"
+    },
+    {
+      "id": "a0WfQ000003qEuoUAE",
+      "title": "令和８年度　地域医療勤務環境改善体制整備特別事業",
+      "institution": "東京都地域医療勤務環境改善体制整備事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-19T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qEuoUAE"
     },
     {
       "id": "a0W2x000003QZLqEAO",
