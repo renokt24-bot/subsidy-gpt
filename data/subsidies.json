@@ -1,41 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-25T23:06:25.396Z",
-  "count": 279,
+  "updatedAt": "2026-10-27T00:17:46.239Z",
+  "count": 277,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDdl2MAD",
-      "title": "「脱炭素化・エネルギー転換に資する我が国技術の国際実証事業」の2026年度第2回公募",
-      "institution": "P93050_脱炭素化・エネルギー転換に資する我が国技術の国際実証事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-25T01:00:00.000Z",
-      "acceptanceEnd": "2026-10-26T03:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdl2MAD"
-    },
-    {
-      "id": "a0WfQ000003K34rUAC",
-      "title": "令和８年度地域資源活用製品等の開発・販売促進事業　開発・改良フェーズ",
-      "institution": "地域資源活用製品等の開発・販売促進事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 15000000,
-      "acceptanceStart": "2026-10-01T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-26T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003K34rUAC"
-    },
     {
       "id": "a0WfQ000003iZLKUA2",
       "title": "令和８年度酒類業振興支援事業費補助金（第６期）",
@@ -1039,7 +1007,7 @@
     },
     {
       "id": "a0WfQ000003mzyjUAA",
-      "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+      "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
       "institution": null,
       "prefecture": "全国",
       "employeeMax": null,
@@ -1053,7 +1021,7 @@
     },
     {
       "id": "a0WfQ000003myubUAA",
-      "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）",
+      "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
       "institution": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
       "prefecture": "全国",
       "employeeMax": null,
@@ -3498,7 +3466,7 @@
     },
     {
       "id": "a0WJ200000CDXoBMAX",
-      "title": "令和８年_設備投資_事業完了後申請",
+      "title": "設備投資支援事業_事業完了後申請（令和８年）",
       "institution": null,
       "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
       "employeeMax": null,
