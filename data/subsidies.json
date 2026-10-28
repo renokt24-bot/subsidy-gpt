@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-27T00:17:46.239Z",
-  "count": 277,
+  "updatedAt": "2026-10-28T00:21:31.692Z",
+  "count": 279,
   "subsidies": [
     {
       "id": "a0WfQ000003iZLKUA2",
@@ -189,22 +189,6 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bwa1UAC"
-    },
-    {
-      "id": "a0WJ200000CDeT5MAL",
-      "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
-      "institution": "令和８年度 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 8440000,
-      "acceptanceStart": "2026-10-09T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeT5MAL"
     },
     {
       "id": "a0WJ200000CDczHMAT",
@@ -546,6 +530,22 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4JMAT"
+    },
+    {
+      "id": "a0WJ200000CDeT5MAL",
+      "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
+      "institution": "令和８年度 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 8440000,
+      "acceptanceStart": "2026-10-09T00:00:00.000Z",
+      "acceptanceEnd": "2026-11-04T08:00:00.000Z",
+      "purposes": [
+        "startup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeT5MAL"
     },
     {
       "id": "a0WJ200000CDapWMAT",
@@ -911,6 +911,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CYIjUAO"
     },
     {
+      "id": "a0WJ200000CDaSdMAL",
+      "title": "令和8年度製品開発着手支援助成事業",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 1000000,
+      "acceptanceStart": "2026-10-27T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-18T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSdMAL"
+    },
+    {
       "id": "a0WJ200000CDd3OMAT",
       "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（四次公募）",
       "institution": "二酸化炭素排出抑制対策事業費等補助金",
@@ -1022,7 +1038,7 @@
     {
       "id": "a0WfQ000003myubUAA",
       "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
-      "institution": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
+      "institution": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（事業II紙パルプ・化学・セメント）",
       "prefecture": "全国",
       "employeeMax": null,
       "employeeMin": null,
@@ -1504,6 +1520,22 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cAFxUAM"
+    },
+    {
+      "id": "a0WfQ000003rYGLUA2",
+      "title": "令和８年度_グリーンスローモビリティ等導入促進事業（三次公募）",
+      "institution": "二酸化炭素排出抑制対策事業費等補助金",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-27T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-23T03:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rYGLUA2"
     },
     {
       "id": "a0WJ200000CDddZMAT",
