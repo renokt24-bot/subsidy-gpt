@@ -1,239 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-10-30T00:41:40.410Z",
-  "count": 274,
+  "updatedAt": "2026-10-31T00:35:02.925Z",
+  "count": 261,
   "subsidies": [
-    {
-      "id": "a0WfQ000003a9flUAA",
-      "title": "【鳥取県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（三次公募）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "鳥取県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-09-23T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003a9flUAA"
-    },
-    {
-      "id": "a0WfQ000003oIxhUAE",
-      "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第６回公募）",
-      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
-      "prefecture": "島根県",
-      "employeeMax": 300,
-      "employeeMin": null,
-      "employeeLimitText": "300名以下",
-      "maxAmount": 3000000,
-      "acceptanceStart": "2026-09-30T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003oIxhUAE"
-    },
-    {
-      "id": "a0WfQ000003Bwa1UAC",
-      "title": "令和８年度第２回募集　課題解決型技術開発促進事業（試作品開発・改良助成）",
-      "institution": "課題解決型技術開発促進事業（試作品開発・改良助成）",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 20000000,
-      "acceptanceStart": "2026-09-13T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003Bwa1UAC"
-    },
-    {
-      "id": "a0WJ200000CDczHMAT",
-      "title": "【令和８年度２次公募】国立公園等利用拠点滞在環境等上質化事業（国立公園等資源整備事業費補助金）",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-06T05:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczHMAT"
-    },
-    {
-      "id": "a0WJ200000CDczMMAT",
-      "title": "【令和８年度２次公募】国立公園等多言語解説等整備事業（国立公園等資源整備事業費補助金）",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-06T05:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDczMMAT"
-    },
-    {
-      "id": "a0WJ200000CDYzVMAX",
-      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業① 空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
-      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業①空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 150000000,
-      "acceptanceStart": "2026-05-21T07:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T09:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX"
-    },
-    {
-      "id": "a0WJ200000CDZ04MAH",
-      "title": "産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 100000000,
-      "acceptanceStart": "2026-05-21T07:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T09:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH"
-    },
-    {
-      "id": "a0WJ200000CDZ1GMAX",
-      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-05-21T07:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T09:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX"
-    },
-    {
-      "id": "a0WJ200000CDaotMAD",
-      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業）",
-      "institution": "再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 300000000,
-      "acceptanceStart": "2026-06-22T07:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T09:00:00.000Z",
-      "purposes": [
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaotMAD"
-    },
-    {
-      "id": "a0W5h00000UcDDXEA3",
-      "title": "東京都広域団体認定訓練助成金",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-09-30T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcDDXEA3"
-    },
-    {
-      "id": "a0WJ200000CDY6uMAH",
-      "title": "令和8年度医療機関診療情報デジタル導入支援事業",
-      "institution": "医療機関診療情報デジタル導入支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-04-14T15:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T14:59:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6uMAH"
-    },
-    {
-      "id": "a0WfQ000003I9xZUAS",
-      "title": "令和６年度地域医療勤務環境改善体制整備特別事業【仕入控除税額報告】",
-      "institution": "東京都地域医療勤務環境改善体制整備事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-29T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003I9xZUAS"
-    },
-    {
-      "id": "a0WfQ000003IBL3UAO",
-      "title": "令和６年度　勤務環境改善医師派遣等推進事業【仕入控除税額報告】",
-      "institution": "勤務環境改善医師派遣等推進事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-29T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003IBL3UAO"
-    },
-    {
-      "id": "a0WJ200000CDVu7MAH",
-      "title": "令和７年度勤務環境改善体制医師派遣等推進事業",
-      "institution": "勤務環境改善医師派遣等推進事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-29T00:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVu7MAH"
-    },
-    {
-      "id": "a0WJ200000CDY4mMAH",
-      "title": "令和７年度補正 業務産業用蓄電システム導入支援事業",
-      "institution": "令和７年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金」業務産業用蓄電システム導入支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 15000000,
-      "acceptanceStart": "2026-03-24T04:00:00.000Z",
-      "acceptanceEnd": "2026-10-30T15:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY4mMAH"
-    },
     {
       "id": "a0WfQ000003aN9KUAU",
       "title": "東京都就職氷河期世代等安定就業サポート助成金（令和８年度第６回申請受付）",
@@ -708,22 +478,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH"
     },
     {
-      "id": "a0WJ200000CDZDHMA5",
-      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-07-02T07:00:00.000Z",
-      "acceptanceEnd": "2026-11-13T09:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5"
-    },
-    {
       "id": "a0WJ200000CDe6WMAT",
       "title": "【佐賀】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
       "institution": "業務改善助成金",
@@ -1003,20 +757,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddVMAT"
     },
     {
-      "id": "a0WJ200000CDZIAMA5",
-      "title": "埼玉県中小企業等奨学金返還支援事業補助金（令和８年度）",
-      "institution": "埼玉県中小企業等奨学金返還支援事業補助金（令和８年度）",
-      "prefecture": "埼玉県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-06-01T00:00:00.000Z",
-      "acceptanceEnd": "2026-11-30T08:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZIAMA5"
-    },
-    {
       "id": "a0WJ200000CDYEGMA5",
       "title": "【令和８年度】働き方改革推進支援助成金",
       "institution": null,
@@ -1047,6 +787,70 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXyuMAH"
+    },
+    {
+      "id": "a0WJ200000CDYzVMAX",
+      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業① 空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
+      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業①空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 150000000,
+      "acceptanceStart": "2026-05-21T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX"
+    },
+    {
+      "id": "a0WJ200000CDZ04MAH",
+      "title": "産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 100000000,
+      "acceptanceStart": "2026-05-21T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH"
+    },
+    {
+      "id": "a0WJ200000CDZDHMA5",
+      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-07-02T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5"
+    },
+    {
+      "id": "a0WJ200000CDZ1GMAX",
+      "title": "産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "institution": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-05-21T07:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T09:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX"
     },
     {
       "id": "a0WJ200000CDYsRMAX",
