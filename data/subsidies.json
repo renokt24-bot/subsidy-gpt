@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-02T00:27:30.580Z",
-  "count": 256,
+  "updatedAt": "2026-11-03T02:50:08.049Z",
+  "count": 259,
   "subsidies": [
     {
       "id": "a0WJ200000CDe4JMAT",
@@ -196,6 +196,20 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RbUAK"
+    },
+    {
+      "id": "a0WJ200000CDZi6MAH",
+      "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
+      "institution": "高度人材インターンシップ受入支援費補助金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 5000,
+      "acceptanceStart": "2026-08-16T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-09T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZi6MAH"
     },
     {
       "id": "a0WJ200000CDXkJMAX",
@@ -1009,6 +1023,34 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXmVMAX"
+    },
+    {
+      "id": "a0WfQ000003tCA5UAM",
+      "title": "⼩規模事業者持続化補助⾦＜⼀般型 災害支援枠（令和8年熊本地震）＞2次公募【商⼯会地区】",
+      "institution": "小規模事業者持続化補助金＜一般型 災害支援枠＞",
+      "prefecture": "熊本県",
+      "employeeMax": 20,
+      "employeeMin": null,
+      "employeeLimitText": "20名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-11-02T08:00:00.000Z",
+      "acceptanceEnd": "2026-12-15T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003tCA5UAM"
+    },
+    {
+      "id": "a0WfQ000003iibVUAQ",
+      "title": "小規模事業者持続化補助金＜一般型 災害支援枠（令和８年熊本地震）＞２次公募【商工会議所地区】",
+      "institution": "小規模事業者持続化補助金＜一般型 災害支援枠＞",
+      "prefecture": "熊本県",
+      "employeeMax": 20,
+      "employeeMin": null,
+      "employeeLimitText": "20名以下",
+      "maxAmount": 2000000,
+      "acceptanceStart": "2026-11-02T08:00:00.000Z",
+      "acceptanceEnd": "2026-12-15T08:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003iibVUAQ"
     },
     {
       "id": "a0WfQ000003ao2zUAA",
