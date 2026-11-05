@@ -1,42 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-04T01:07:53.341Z",
-  "count": 259,
+  "updatedAt": "2026-11-05T01:23:48.888Z",
+  "count": 258,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDe4JMAT",
-      "title": "令和７年度補正　再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金　系統用蓄電システム等導入支援事業",
-      "institution": "令和７年度補正　再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 4000000000,
-      "acceptanceStart": "2026-09-04T08:00:00.000Z",
-      "acceptanceEnd": "2026-11-04T08:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "it"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe4JMAT"
-    },
-    {
-      "id": "a0WJ200000CDeT5MAL",
-      "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
-      "institution": "令和８年度 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 8440000,
-      "acceptanceStart": "2026-10-09T00:00:00.000Z",
-      "acceptanceEnd": "2026-11-04T08:00:00.000Z",
-      "purposes": [
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeT5MAL"
-    },
     {
       "id": "a0WJ200000CDapWMAT",
       "title": "【令和８年度】先進的な資源循環投資促進事業（第２回）",
@@ -639,6 +606,22 @@
       "acceptanceEnd": "2026-11-30T07:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ohEXUAY"
+    },
+    {
+      "id": "a0WfQ0000046qPpUAI",
+      "title": "【島根県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第７回公募）",
+      "institution": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "prefecture": "島根県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-11-01T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T08:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000046qPpUAI"
     },
     {
       "id": "a0WJ200000CDYfxMAH",
@@ -1564,20 +1547,6 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX"
-    },
-    {
-      "id": "a0WJ200000CDVm7MAH",
-      "title": "令和７年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
-      "institution": "令和７年度病院勤務者勤務環境改善事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-29T00:00:00.000Z",
-      "acceptanceEnd": "2026-12-31T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVm7MAH"
     },
     {
       "id": "a0WJ200000CDK7NMAX",
@@ -3277,6 +3246,20 @@
       "acceptanceEnd": "2027-03-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000003QZLqEAO"
+    },
+    {
+      "id": "a0WJ200000CDVm7MAH",
+      "title": "令和７年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
+      "institution": "令和７年度病院勤務者勤務環境改善事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-10-29T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVm7MAH"
     },
     {
       "id": "a0WJ200000CDdL9MAL",
