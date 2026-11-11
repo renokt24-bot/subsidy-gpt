@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-10T03:19:06.433Z",
-  "count": 255,
+  "updatedAt": "2026-11-11T01:07:41.541Z",
+  "count": 256,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYkiMAH",
-      "title": "令和８年度外国人患者受入れ体制整備支援事業補助金",
-      "institution": "令和８年度外国人患者受入れ体制整備支援事業補助金",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1300000,
-      "acceptanceStart": "2026-05-19T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-10T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYkiMAH"
-    },
     {
       "id": "a0WJ200000CDdjfMAD",
       "title": "[３次公募]中小企業成長加速化補助金",
@@ -251,6 +237,22 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaSdMAL"
+    },
+    {
+      "id": "a0WJ200000CDXkJMAX",
+      "title": "「グリーンイノベーション基金事業／次世代型地熱技術の開発」の公募",
+      "institution": "グリーンイノベーション基金事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-08-28T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-20T03:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkJMAX"
     },
     {
       "id": "a0WJ200000CDd3OMAT",
@@ -3321,6 +3323,22 @@
         "training"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003n4bqUAA"
+    },
+    {
+      "id": "a0W2x000007Cos5EAC",
+      "title": "［第六回以降］事業再構築補助金（共同申請者）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 150000000,
+      "acceptanceStart": "2022-09-15T09:00:00.000Z",
+      "acceptanceEnd": "2027-12-31T14:59:00.000Z",
+      "purposes": [
+        "restructure"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
     },
     {
       "id": "a0WJ2000000pSPQMA2",
