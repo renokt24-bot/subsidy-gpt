@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-11T01:07:41.541Z",
-  "count": 256,
+  "updatedAt": "2026-11-12T02:09:54.172Z",
+  "count": 258,
   "subsidies": [
     {
       "id": "a0WJ200000CDdjfMAD",
@@ -863,6 +863,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003znYLUAY"
     },
     {
+      "id": "a0WfQ0000049swXUAQ",
+      "title": "令和７年度補正「次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業補助金」【三次公募】",
+      "institution": "次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 2700000000,
+      "acceptanceStart": "2026-11-11T03:00:00.000Z",
+      "acceptanceEnd": "2026-12-11T03:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000049swXUAQ"
+    },
+    {
       "id": "a0WfQ000003dVevUAE",
       "title": "GX地域共創補助金2026",
       "institution": "令和8年度 脱炭素電源地域貢献型投資促進事業",
@@ -1417,6 +1433,22 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQuHMAX"
+    },
+    {
+      "id": "a0WfQ000004BTqnUAG",
+      "title": "令和８年度在宅医療現場における防犯機器等導入支援事業",
+      "institution": "在宅医療現場における防犯機器等導入支援事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 50000,
+      "acceptanceStart": "2026-11-11T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-31T00:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000004BTqnUAG"
     },
     {
       "id": "a0WJ200000CDaTCMA1",
