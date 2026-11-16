@@ -1,39 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-15T00:54:30.611Z",
+  "updatedAt": "2026-11-16T00:53:04.852Z",
   "count": 250,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDeUgMAL",
-      "title": "令和8年度東京都臨床調査個人票電子化等推進事業補助金",
-      "institution": "東京都臨床調査個人票電子化等推進事業補助金",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 50000,
-      "acceptanceStart": "2026-09-14T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-15T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeUgMAL"
-    },
-    {
-      "id": "a0WJ200000CDe6CMAT",
-      "title": "【京都】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
-      "institution": "業務改善助成金",
-      "prefecture": "京都府",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 6000000,
-      "acceptanceStart": "2026-08-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-15T14:59:00.000Z",
-      "purposes": [
-        "wageup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6CMAT"
-    },
     {
       "id": "a0WfQ000003CYIjUAO",
       "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（g12-2：部素材）の追加公募",
@@ -163,6 +133,23 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ENsfUAG"
+    },
+    {
+      "id": "a0WJ200000CDUheMAH",
+      "title": "令和８年度訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+      "institution": "訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 100000,
+      "acceptanceStart": "2026-08-30T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-20T14:59:00.000Z",
+      "purposes": [
+        "equipment",
+        "worklife"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUheMAH"
     },
     {
       "id": "a0WJ200000CDYbNMAX",
@@ -753,6 +740,22 @@
       "acceptanceEnd": "2026-12-14T03:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003dVevUAE"
+    },
+    {
+      "id": "a0WfQ000003rcVFUAY",
+      "title": "経営力強化に向けた創意工夫チャレンジ促進事業助成金（賃上げ重点コース）【令和8年度第3回】",
+      "institution": "経営力強化に向けた創意工夫チャレンジ促進事業(賃上げ重点コース)",
+      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 6000000,
+      "acceptanceStart": "2026-11-16T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-14T07:00:00.000Z",
+      "purposes": [
+        "wageup"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rcVFUAY"
     },
     {
       "id": "a0WJ200000CDXmVMAX",
