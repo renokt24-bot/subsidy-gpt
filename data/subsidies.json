@@ -1,59 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-16T00:53:04.852Z",
-  "count": 250,
+  "updatedAt": "2026-11-17T03:33:34.282Z",
+  "count": 248,
   "subsidies": [
-    {
-      "id": "a0WfQ000003CYIjUAO",
-      "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（g12-2：部素材）の追加公募",
-      "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-10-14T01:00:00.000Z",
-      "acceptanceEnd": "2026-11-16T03:00:00.000Z",
-      "purposes": [
-        "it",
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CYIjUAO"
-    },
-    {
-      "id": "a0WJ200000CDXkTMAX",
-      "title": "令和８年度展示会出展助成事業",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 1500000,
-      "acceptanceStart": "2026-10-31T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-16T07:00:00.000Z",
-      "purposes": [
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXkTMAX"
-    },
-    {
-      "id": "a0WfQ000003j5GLUAY",
-      "title": "「GX分野のディープテック・スタートアップへの事業開発支援事業（GX_UPP事業）」の第3回公募",
-      "institution": "P25001_GX 分野のディープテック・スタートアップへの事業開発支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-11-10T01:00:00.000Z",
-      "acceptanceEnd": "2026-11-17T03:00:00.000Z",
-      "purposes": [
-        "sales",
-        "startup"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003j5GLUAY"
-    },
     {
       "id": "a0WJ200000CDaSdMAL",
       "title": "令和8年度製品開発着手支援助成事業",
@@ -135,23 +85,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ENsfUAG"
     },
     {
-      "id": "a0WJ200000CDUheMAH",
-      "title": "令和８年度訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
-      "institution": "訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 100000,
-      "acceptanceStart": "2026-08-30T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-20T14:59:00.000Z",
-      "purposes": [
-        "equipment",
-        "worklife"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUheMAH"
-    },
-    {
       "id": "a0WJ200000CDYbNMAX",
       "title": "エイジフレンドリー補助金",
       "institution": "エイジフレンドリー補助金",
@@ -197,6 +130,37 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD"
+    },
+    {
+      "id": "a0WJ200000CDYDCMA5",
+      "title": "【農林水産省】中山間地域所得確保推進事業",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 5000000,
+      "acceptanceStart": "2025-12-16T00:00:00.000Z",
+      "acceptanceEnd": "2026-11-25T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5"
+    },
+    {
+      "id": "a0WfQ000003CYIjUAO",
+      "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（g12-2：部素材）の追加公募",
+      "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-14T01:00:00.000Z",
+      "acceptanceEnd": "2026-11-26T03:00:00.000Z",
+      "purposes": [
+        "it",
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CYIjUAO"
     },
     {
       "id": "a0WfQ000003mzyjUAA",
@@ -654,20 +618,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYR2MAP"
     },
     {
-      "id": "a0WJ200000CDYDCMA5",
-      "title": "【農林水産省】中山間地域所得確保推進事業",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 5000000,
-      "acceptanceStart": "2025-12-16T00:00:00.000Z",
-      "acceptanceEnd": "2026-12-01T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5"
-    },
-    {
       "id": "a0WJ200000CDbyjMAD",
       "title": "令和８年度ゼロエミッション船等の導入支援事業",
       "institution": "脱炭素成長型経済構造移行推進対策費補助金（ゼロエミッション船等の導入支援事業）",
@@ -844,6 +794,24 @@
       "acceptanceEnd": "2026-12-15T08:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003lu8IUAQ"
+    },
+    {
+      "id": "a0WfQ000003qLZhUAM",
+      "title": "「ポスト５Ｇ情報通信システム基盤強化研究開発事業／記録レス介護実現のための介護特化モデル等に関する研究開発（委託）」の公募",
+      "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-11-16T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-16T03:00:00.000Z",
+      "purposes": [
+        "it",
+        "sales",
+        "worklife"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qLZhUAM"
     },
     {
       "id": "a0WfQ000003pvCDUAY",
