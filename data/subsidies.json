@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-19T02:24:56.005Z",
-  "count": 247,
+  "updatedAt": "2026-11-20T02:09:30.099Z",
+  "count": 250,
   "subsidies": [
     {
       "id": "a0WJ200000CDXkJMAX",
@@ -618,6 +618,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyjMAD"
     },
     {
+      "id": "a0WfQ0000047V4oUAE",
+      "title": "「ナトリウムイオン電池に関する技術（特許）動向調査」の公募",
+      "institution": "P26002_革新型蓄電池技術開発・高度解析事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-11-20T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-03T03:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000047V4oUAE"
+    },
+    {
       "id": "a0WfQ000003zgNCUAY",
       "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（事業Ⅰ/鉄鋼）",
       "institution": null,
@@ -872,6 +886,38 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYBxMAP"
+    },
+    {
+      "id": "a0WfQ000003wLYbUAM",
+      "title": "令和８年度　宿泊事業者向け省力化推進事業補助金",
+      "institution": "令和８年度　宿泊事業者向け省力化推進事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 8000000,
+      "acceptanceStart": "2026-11-19T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-18T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003wLYbUAM"
+    },
+    {
+      "id": "a0WfQ0000043Od4UAE",
+      "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（b-2：人材育成）の追加公募",
+      "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-11-20T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-22T03:00:00.000Z",
+      "purposes": [
+        "it",
+        "sales",
+        "training"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000043Od4UAE"
     },
     {
       "id": "a0WfQ000003cAFxUAM",
@@ -3190,22 +3236,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003n4bqUAA"
     },
     {
-      "id": "a0W2x000007Cos5EAC",
-      "title": "［第六回以降］事業再構築補助金（共同申請者）",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 150000000,
-      "acceptanceStart": "2022-09-15T09:00:00.000Z",
-      "acceptanceEnd": "2027-12-31T14:59:00.000Z",
-      "purposes": [
-        "restructure"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
-    },
-    {
       "id": "a0WJ2000000pSPQMA2",
       "title": "令和6年度　ES（社員満足度）向上による若手人材確保・定着事業助成金～１年目申請用～",
       "institution": null,
@@ -3633,6 +3663,22 @@
         "restructure"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQEJMA5"
+    },
+    {
+      "id": "a0W2x000007Cos5EAC",
+      "title": "［第六回以降］事業再構築補助金（共同申請者）",
+      "institution": null,
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 150000000,
+      "acceptanceStart": "2022-09-15T09:00:00.000Z",
+      "acceptanceEnd": "2032-12-31T14:59:00.000Z",
+      "purposes": [
+        "restructure"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cos5EAC"
     },
     {
       "id": "a0WfQ000003kp5pUAA",
