@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-21T02:01:53.279Z",
-  "count": 244,
+  "updatedAt": "2026-11-22T01:04:44.404Z",
+  "count": 248,
   "subsidies": [
     {
       "id": "a0WfQ000003rLvpUAE",
@@ -1673,6 +1673,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvPMAX"
     },
     {
+      "id": "a0WJ200000CDYUUMA5",
+      "title": "【さいたま市】令和８年度さいたま市重点対策加速化事業補助金",
+      "institution": "さいたま市重点対策加速化事業補助金",
+      "prefecture": "埼玉県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-12-31T15:00:00.000Z",
+      "acceptanceEnd": "2027-02-01T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUUMA5"
+    },
+    {
       "id": "a0WJ200000CDYUkMAP",
       "title": "令和８年度乗降用リフト装置付バス利用支援補助金",
       "institution": "乗降用リフト装置付バス利用支援補助金",
@@ -1987,6 +2001,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXMiMAP"
     },
     {
+      "id": "a0WJ200000CDYUVMA5",
+      "title": "【さいたま市】令和８年度さいたま市創エネ・蓄エネ設備導入補助金",
+      "institution": "さいたま市創エネ・蓄エネ設備導入補助金",
+      "prefecture": "埼玉県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-12-31T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-01T08:15:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUVMA5"
+    },
+    {
       "id": "a0WJ200000CDY6GMAX",
       "title": "川越市中小企業者等物価高騰対策経営改善支援金",
       "institution": null,
@@ -2043,6 +2073,34 @@
         "sales"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY1kMAH"
+    },
+    {
+      "id": "a0WJ200000CDYUWMA5",
+      "title": "【さいたま市】令和８年度さいたま市商用車の電動化等普及促進補助金",
+      "institution": "さいたま市商用車の電動化等普及促進補助金",
+      "prefecture": "埼玉県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-12-31T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-19T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUWMA5"
+    },
+    {
+      "id": "a0WJ200000CDYUTMA5",
+      "title": "【さいたま市】令和８年度さいたま市電気自動車等普及促進対策補助金",
+      "institution": "さいたま市電気自動車等普及促進対策補助金",
+      "prefecture": "埼玉県",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-12-31T15:00:00.000Z",
+      "acceptanceEnd": "2027-03-19T08:15:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYUTMA5"
     },
     {
       "id": "a0WJ200000CDd5XMAT",
