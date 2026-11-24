@@ -1,8 +1,8 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-23T01:28:27.151Z",
-  "count": 248,
+  "updatedAt": "2026-11-24T05:11:40.177Z",
+  "count": 250,
   "subsidies": [
     {
       "id": "a0WfQ000003rLvpUAE",
@@ -14,7 +14,7 @@
       "employeeLimitText": "従業員数の制約なし",
       "maxAmount": 200000000,
       "acceptanceStart": "2026-10-23T00:00:00.000Z",
-      "acceptanceEnd": "2026-11-24T04:00:00.000Z",
+      "acceptanceEnd": "2026-11-24T06:00:00.000Z",
       "purposes": [
         "equipment"
       ],
@@ -933,6 +933,36 @@
       "acceptanceEnd": "2026-12-25T02:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDddbMAD"
+    },
+    {
+      "id": "a0WfQ0000041nyrUAA",
+      "title": "令和8年度第3回 事業承継を契機とした成長支援事業(一般コース)",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 8000000,
+      "acceptanceStart": "2026-11-24T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T07:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000041nyrUAA"
+    },
+    {
+      "id": "a0WfQ0000041oIDUAY",
+      "title": "令和8年度第3回 事業承継を契機とした成長支援事業(販路開拓コース)",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 3000000,
+      "acceptanceStart": "2026-11-24T00:00:00.000Z",
+      "acceptanceEnd": "2026-12-25T07:00:00.000Z",
+      "purposes": [
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000041oIDUAY"
     },
     {
       "id": "a0WJ200000CDY2TMAX",
