@@ -1,42 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-24T05:11:40.177Z",
-  "count": 250,
+  "updatedAt": "2026-11-25T04:01:28.523Z",
+  "count": 249,
   "subsidies": [
-    {
-      "id": "a0WfQ000003rLvpUAE",
-      "title": "第１４回（令和８年度第３回）躍進的な事業推進のための設備投資支援事業",
-      "institution": "躍進的な事業推進のための設備投資支援事業",
-      "prefecture": "茨城県 / 栃木県 / 群馬県 / 埼玉県 / 千葉県 / 東京都 / 神奈川県 / 山梨県",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 200000000,
-      "acceptanceStart": "2026-10-23T00:00:00.000Z",
-      "acceptanceEnd": "2026-11-24T06:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rLvpUAE"
-    },
-    {
-      "id": "a0WJ200000CDe82MAD",
-      "title": "「太陽光発電導入拡大等技術開発事業」の第3回公募",
-      "institution": "P25011_太陽光発電導入拡大等技術開発事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-10-19T01:00:00.000Z",
-      "acceptanceEnd": "2026-11-25T03:00:00.000Z",
-      "purposes": [
-        "equipment",
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD"
-    },
     {
       "id": "a0WJ200000CDYDCMA5",
       "title": "【農林水産省】中山間地域所得確保推進事業",
@@ -300,20 +267,6 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX"
     },
     {
-      "id": "a0WJ200000CDKBZMA5",
-      "title": "令和６年度　病院勤務者勤務環境改善事業・救急医療体制強化事業（実績報告）",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2024-10-29T15:00:00.000Z",
-      "acceptanceEnd": "2026-11-30T14:45:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKBZMA5"
-    },
-    {
       "id": "a0WJ200000CDYsRMAX",
       "title": "森・川・海ごみ削減実践活動支援事業補助金",
       "institution": "森・川・海ごみ削減実践活動支援事業補助金",
@@ -326,6 +279,20 @@
       "acceptanceEnd": "2026-11-30T14:45:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYsRMAX"
+    },
+    {
+      "id": "a0WJ200000CDKBZMA5",
+      "title": "令和６年度　病院勤務者勤務環境改善事業・救急医療体制強化事業（実績報告）",
+      "institution": null,
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2024-10-29T15:00:00.000Z",
+      "acceptanceEnd": "2026-11-30T14:45:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKBZMA5"
     },
     {
       "id": "a0WJ200000CDeYeMAL",
@@ -1685,6 +1652,20 @@
       "acceptanceEnd": "2027-01-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeRiMAL"
+    },
+    {
+      "id": "a0WfQ000004HZ0fUAG",
+      "title": "都城市中小企業退職金等共済加入促進事業補助金（令和８年度）",
+      "institution": "都城市中小企業退職金等共済加入促進事業補助金",
+      "prefecture": "宮崎県",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-11-24T15:00:00.000Z",
+      "acceptanceEnd": "2027-01-31T15:00:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000004HZ0fUAG"
     },
     {
       "id": "a0WJ200000CDYvPMAX",
