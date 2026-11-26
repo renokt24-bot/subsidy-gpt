@@ -1,40 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-25T04:01:28.523Z",
+  "updatedAt": "2026-11-26T03:26:05.384Z",
   "count": 249,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDYDCMA5",
-      "title": "【農林水産省】中山間地域所得確保推進事業",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 5000000,
-      "acceptanceStart": "2025-12-16T00:00:00.000Z",
-      "acceptanceEnd": "2026-11-25T08:15:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5"
-    },
-    {
-      "id": "a0WfQ000003CYIjUAO",
-      "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（g12-2：部素材）の追加公募",
-      "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-10-14T01:00:00.000Z",
-      "acceptanceEnd": "2026-11-26T03:00:00.000Z",
-      "purposes": [
-        "it",
-        "sales"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CYIjUAO"
-    },
     {
       "id": "a0WfQ000003mzyjUAA",
       "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
@@ -519,6 +488,23 @@
       "acceptanceEnd": "2026-12-03T03:00:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000047V4oUAE"
+    },
+    {
+      "id": "a0WJ200000CDe82MAD",
+      "title": "「太陽光発電導入拡大等技術開発事業」の第3回公募",
+      "institution": "P25011_太陽光発電導入拡大等技術開発事業",
+      "prefecture": "全国",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-10-19T01:00:00.000Z",
+      "acceptanceEnd": "2026-12-08T03:00:00.000Z",
+      "purposes": [
+        "equipment",
+        "sales"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD"
     },
     {
       "id": "a0WfQ000003zgNCUAY",
@@ -1880,6 +1866,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0YMAT"
     },
     {
+      "id": "a0WfQ000003ps4fUAA",
+      "title": "女性活躍のための施設整備助成金（リース費用助成コース）",
+      "institution": "女性活躍のための施設整備助成金",
+      "prefecture": "東京都",
+      "employeeMax": 300,
+      "employeeMin": null,
+      "employeeLimitText": "300名以下",
+      "maxAmount": 900000,
+      "acceptanceStart": "2026-06-24T15:00:00.000Z",
+      "acceptanceEnd": "2027-02-26T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ps4fUAA"
+    },
+    {
       "id": "a0WJ200000CDap3MAD",
       "title": "令和8年度　育児・介護との両立のためのテレワーク活用促進奨励金",
       "institution": null,
@@ -2980,6 +2980,20 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYW4MAP"
     },
     {
+      "id": "a0WJ200000CDVm7MAH",
+      "title": "令和７年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
+      "institution": "東京都生産性向上・職場環境整備等支援事業補助金　消費税仕入控除税額報告",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2025-10-29T00:00:00.000Z",
+      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
+      "purposes": [],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVm7MAH"
+    },
+    {
       "id": "a0WJ200000CDRArMAP",
       "title": "令和７年度こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業補助金",
       "institution": null,
@@ -3081,20 +3095,6 @@
       "acceptanceEnd": "2027-03-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000003QZLqEAO"
-    },
-    {
-      "id": "a0WJ200000CDVm7MAH",
-      "title": "令和７年度病院勤務者勤務環境改善事業・救急医療体制強化事業",
-      "institution": "令和７年度病院勤務者勤務環境改善事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2025-10-29T00:00:00.000Z",
-      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVm7MAH"
     },
     {
       "id": "a0WJ200000CDdL9MAL",
