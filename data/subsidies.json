@@ -1,37 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-26T03:26:05.384Z",
-  "count": 249,
+  "updatedAt": "2026-11-27T03:33:08.015Z",
+  "count": 246,
   "subsidies": [
-    {
-      "id": "a0WfQ000003mzyjUAA",
-      "title": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
-      "institution": null,
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-10-22T03:00:00.000Z",
-      "acceptanceEnd": "2026-11-27T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003mzyjUAA"
-    },
-    {
-      "id": "a0WfQ000003myubUAA",
-      "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（二次公募）（事業Ⅱ/紙パルプ・化学・セメント）",
-      "institution": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-10-22T03:00:00.000Z",
-      "acceptanceEnd": "2026-11-27T03:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003myubUAA"
-    },
     {
       "id": "a0WJ200000CDY5GMAX",
       "title": "令和７年度補正 ディマンドリスポンスの拡大に向けたIoT化推進事業",
@@ -777,6 +749,22 @@
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003wLYbUAM"
     },
     {
+      "id": "a0WfQ000004BTqnUAG",
+      "title": "令和８年度在宅医療現場における防犯機器等導入支援事業",
+      "institution": "在宅医療現場における防犯機器等導入支援事業",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 50000,
+      "acceptanceStart": "2026-11-23T15:00:00.000Z",
+      "acceptanceEnd": "2026-12-19T00:00:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000004BTqnUAG"
+    },
+    {
       "id": "a0WfQ0000043Od4UAE",
       "title": "「ポスト5G情報通信システム基盤強化研究開発事業（社会課題解決に向けた量子コンピュータ次世代機開発・実証の加速）」（b-2：人材育成）の追加公募",
       "institution": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
@@ -1215,22 +1203,6 @@
         "equipment"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQuHMAX"
-    },
-    {
-      "id": "a0WfQ000004BTqnUAG",
-      "title": "令和８年度在宅医療現場における防犯機器等導入支援事業",
-      "institution": "在宅医療現場における防犯機器等導入支援事業",
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 50000,
-      "acceptanceStart": "2026-11-11T15:00:00.000Z",
-      "acceptanceEnd": "2026-12-31T00:00:00.000Z",
-      "purposes": [
-        "equipment"
-      ],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000004BTqnUAG"
     },
     {
       "id": "a0WJ200000CDaTCMA1",
@@ -2770,20 +2742,6 @@
         "it"
       ],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ20000087jeOMAQ"
-    },
-    {
-      "id": "a0WJ200000CDK7KMAX",
-      "title": "東京都環境保全資金融資あっせん",
-      "institution": null,
-      "prefecture": "東京都",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 0,
-      "acceptanceStart": "2026-03-31T15:00:00.000Z",
-      "acceptanceEnd": "2027-03-31T14:59:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDK7KMAX"
     },
     {
       "id": "a0WJ200000CDYSUMA5",
