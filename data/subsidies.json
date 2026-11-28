@@ -1,23 +1,9 @@
 {
   "source": "jGrants (Jグランツ) 公開API",
   "sourceUrl": "https://www.jgrants-portal.go.jp/",
-  "updatedAt": "2026-11-27T03:33:08.015Z",
+  "updatedAt": "2026-11-28T03:10:44.654Z",
   "count": 246,
   "subsidies": [
-    {
-      "id": "a0WJ200000CDY5GMAX",
-      "title": "令和７年度補正 ディマンドリスポンスの拡大に向けたIoT化推進事業",
-      "institution": "令和７年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金」ディマンドリスポンスの拡大に向けたIoT化推進事業",
-      "prefecture": "全国",
-      "employeeMax": null,
-      "employeeMin": null,
-      "employeeLimitText": "従業員数の制約なし",
-      "maxAmount": 20000000,
-      "acceptanceStart": "2026-03-24T04:00:00.000Z",
-      "acceptanceEnd": "2026-11-27T15:00:00.000Z",
-      "purposes": [],
-      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY5GMAX"
-    },
     {
       "id": "a0WJ200000CDZzQMAX",
       "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（地域再エネ水素ステーション保守点検等支援事業）",
@@ -3081,6 +3067,22 @@
       "acceptanceEnd": "2027-05-31T14:59:00.000Z",
       "purposes": [],
       "url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000005iqyXEAQ"
+    },
+    {
+      "id": "a0WfQ000004MP0fUAG",
+      "title": "東京都生産性向上・職場環境整備等支援事業補助金　消費税仕入控除税額報告",
+      "institution": "東京都生産性向上・職場環境整備等支援事業補助金　消費税仕入控除税額報告",
+      "prefecture": "東京都",
+      "employeeMax": null,
+      "employeeMin": null,
+      "employeeLimitText": "従業員数の制約なし",
+      "maxAmount": 0,
+      "acceptanceStart": "2026-04-01T00:00:00.000Z",
+      "acceptanceEnd": "2027-05-31T14:59:00.000Z",
+      "purposes": [
+        "equipment"
+      ],
+      "url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000004MP0fUAG"
     },
     {
       "id": "a0WfQ000003MWE2UAO",
